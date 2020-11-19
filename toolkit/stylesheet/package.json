@@ -1,0 +1,23 @@
+{
+  "name": "codeberg-design",
+  "version": "1.0.0",
+  "description": "Codeberg's stylesheet based on Halfmoon",
+  "main": "codeberg-design.css",
+  "scripts": {
+    "build": "node prefix.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/Codeberg/Design.git"
+  },
+  "keywords": [
+    "codeberg",
+    "design"
+  ],
+  "author": "Codeberg e.V.",
+  "license": "MIT",
+  "dependencies": {
+    "halfmoon": "^1.1.1",
+    "scope-css": "^1.2.1"
+  }
+}
