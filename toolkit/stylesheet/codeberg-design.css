@@ -1,6 +1,10 @@
-@import url("./halfmoon.min.css");
+@import url("./halfmoon.css");
 
-:root {
+.codeberg-design {
+	box-sizing: border-box;
+}
+
+.codeberg-design {
     /*
     Table of contents (for variables):
         1.  Base variables ------------------------------------------- [hmv-01]
