@@ -1,0 +1,23 @@
+{
+	"name": "navbar",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"fix": "prettier --write ."
+	},
+	"dependencies": {
+		"vue": "^3.0.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.1.1",
+		"vite": "^1.0.0-rc.8",
+		"@vue/compiler-sfc": "^3.0.2"
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": true,
+		"endOfLine": "lf",
+		"singleQuote": false
+	}
+}
