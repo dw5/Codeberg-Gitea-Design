@@ -7,7 +7,13 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
 ## How to use the Halfmoon stylesheet
 
 ```html
-<link rel="stylesheet" href="https://design.codeberg.org/codeberg-design.css">
+<!-- In your <head> tag: -->
+<link rel="stylesheet" href="https://design.codeberg.org/codeberg-design.css" />
+<link href="https://fonts.codeberg.org/dist/inter/Inter%20Web/inter.css" rel="stylesheet" />
+<link href="https://fonts.codeberg.org/dist/fontawesome5/css/all.min.css" rel="stylesheet" />
+
+<!-- At the end of the body: -->
+<script src="halfmoon.min.js"></script>
 
 <!-- To use the design for the whole page: -->
 <html class="codeberg-design">
@@ -22,7 +28,7 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
 
 ## How to create custom components
 
-1. `npm init vite-app my-example-component && cd my-example-component`
+1. `npm init vite-app my-example-component --template vue-ts && cd my-example-component`
 2. Setup prettier for code formatting:
    1. `npm install prettier --save-dev`
    2. Add `"fix": "prettier --write ."` to the `scripts` section of your `package.json`
@@ -35,10 +41,7 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
       	"singleQuote": false
       }
       ```
-3. Add the stylesheet for debugging:
-   1. Add a line `<link rel="stylesheet" href="/stylesheet/codeberg-design.css" />` to the `<head>` section in your `index.html`
-   2. Add a line `<script src="/stylesheet/halfmoon.js"></script>` to the `<head>` section in your `index.html`
-   3. Create a symlink to your local Codeberg stylesheet folder with `ln -s ../stylesheet`
+3. Add the stylesheet (as seen above) to your `index.html`
 4. Remove the `public` folder and the favicon line in the `<head>` section in your `index.html`
 5. Swap out the HelloWorld component with your own one
 6. Start the development server using `npm run dev`

@@ -16,7 +16,7 @@
   ],
   "author": "Codeberg e.V.",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "halfmoon": "^1.1.1",
     "scope-css": "^1.2.1"
   }

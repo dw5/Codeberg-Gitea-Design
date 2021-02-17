@@ -83,11 +83,11 @@ Credits:
     --base-html-font-size: 62.5%; 
     --base-html-font-size-1600: 75%; 
     --base-html-font-size-1920: 87.5%; 
-    --base-font-size: 1.4rem;
+    --base-font-size: 14px;
     --base-line-height: 1.5;
     --base-border-width: 1px;
-    --base-border-radius: 0.4rem;
-    --extra-letter-spacing-size: 0.03rem;
+    --base-border-radius: 4px;
+    --extra-letter-spacing-size: 0.30px;
 
     --lm-base-text-color: rgba(0, 0, 0, 0.85);
     --lm-base-text-color-light: rgba(0, 0, 0, 0.7);
@@ -257,23 +257,23 @@ Credits:
     --lm-shadow-color: rgba(0, 0, 0, 0.15);
     --dm-shadow-color: rgba(0, 0, 0, 0.4);
 
-    --lm-small-shadow: 0 0.1rem 0.2rem var(--lm-shadow-color);
-    --dm-small-shadow: 0 0.1rem 0.6rem var(--dm-shadow-color);
+    --lm-small-shadow: 0 1px 2px var(--lm-shadow-color);
+    --dm-small-shadow: 0 1px 6px var(--dm-shadow-color);
 
-    --lm-shadow: 0 0.2rem 0.4rem var(--lm-shadow-color);
-    --dm-shadow: 0 0.2rem 0.8rem var(--dm-shadow-color);
+    --lm-shadow: 0 2px 4px var(--lm-shadow-color);
+    --dm-shadow: 0 2px 8px var(--dm-shadow-color);
 
-    --lm-large-shadow: 0 0.4rem 0.8rem var(--lm-shadow-color);
-    --dm-large-shadow: 0 0.4rem 1.2rem var(--dm-shadow-color);
+    --lm-large-shadow: 0 4px 8px var(--lm-shadow-color);
+    --dm-large-shadow: 0 4px 12px var(--dm-shadow-color);
 
 
     
     
-    --webkit-scrollbar-width-height: 1.4rem;
+    --webkit-scrollbar-width-height: 14px;
     --webkit-scrollbar-track-border-width: var(--base-border-width);
-    --webkit-scrollbar-thumb-min-width-height: 3rem;
-    --webkit-scrollbar-thumb-border-width: 0.4rem;
-    --webkit-scrollbar-thumb-border-radius: 1rem;
+    --webkit-scrollbar-thumb-min-width-height: 30px;
+    --webkit-scrollbar-thumb-border-width: 4px;
+    --webkit-scrollbar-thumb-border-radius: 10px;
     --webkit-scrollbar-corner-border-width: var(--base-border-width);
 
     --lm-webkit-scrollbar-bg-color: transparent;
@@ -430,13 +430,13 @@ Credits:
     
 
     --sticky-alerts-top: 0;
-    --sticky-alerts-right: 2.4rem;
+    --sticky-alerts-right: 24px;
 
     
 
-    --navbar-height: 5rem;
+    --navbar-height: 50px;
     --navbar-border-width: var(--base-border-width);
-    --navbar-horizontal-padding: 1rem;
+    --navbar-horizontal-padding: 10px;
 
     --lm-navbar-bg-color: var(--white-bg-color);
     --lm-navbar-bg-image: none;
@@ -460,7 +460,7 @@ Credits:
 
     
 
-    --sidebar-width: 26rem;
+    --sidebar-width: 260px;
     --sidebar-border-width: var(--base-border-width);
 
     --lm-sidebar-bg-color: var(--white-bg-color);
@@ -481,20 +481,20 @@ Credits:
     
 
     --container-width: 100%;
-    --container-sm-max-width: 54rem;
-    --container-md-max-width: 72rem;
-    --container-lg-max-width: 96rem;
-    --container-xl-max-width: 114rem;
+    --container-sm-max-width: 540px;
+    --container-md-max-width: 720px;
+    --container-lg-max-width: 960px;
+    --container-xl-max-width: 1140px;
     --container-fluid-width: 100%;
 
     
 
-    --content-and-card-spacing: 3rem;
-    --content-and-card-spacing-xs: 2rem;
+    --content-and-card-spacing: 30px;
+    --content-and-card-spacing-xs: 20px;
     --content-and-card-spacing-half: calc(var(--content-and-card-spacing)/2); 
     --content-and-card-spacing-xs-half: calc(var(--content-and-card-spacing-xs)/2); 
     
-    --content-title-font-size: 2rem;
+    --content-title-font-size: 20px;
     --content-title-font-weight: 500;
 
     --card-border-width: var(--base-border-width);
@@ -531,28 +531,28 @@ Credits:
 
     
 
-    --button-height: 3.2rem;
+    --button-height: 32px;
     --button-line-height: var(--button-height);
-    --button-padding: 0 1.5rem;
+    --button-padding: 0 15px;
     --button-border-width: var(--base-border-width);
     --button-border-radius: var(--base-border-radius);
     --button-outline-width: 1px;
     --button-outline-type: dotted;
-    --button-outline-offset: 0.2rem;
+    --button-outline-offset: 2px;
 
     
 
-    --small-button-height: 2.6rem;
+    --small-button-height: 26px;
     --small-button-line-height: var(--small-button-height);
-    --small-button-padding: 0 1rem;
-    --small-button-font-size: 1.2rem;
+    --small-button-padding: 0 10px;
+    --small-button-font-size: 12px;
 
     
 
-    --large-button-height: 4rem;
+    --large-button-height: 40px;
     --large-button-line-height: var(--large-button-height);
-    --large-button-padding: 0 2rem;
-    --large-button-font-size: 1.8rem;
+    --large-button-padding: 0 20px;
+    --large-button-font-size: 18px;
 
     
 
@@ -560,7 +560,7 @@ Credits:
     --lm-button-bg-color: #ffffff;
     --lm-button-bg-image: none;
     --lm-button-border-color: rgba(0, 0, 0, 0.2);
-    --lm-button-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    --lm-button-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
     --lm-button-text-color-hover: var(--lm-button-text-color);
     --lm-button-bg-color-hover: var(--gray-color-very-light);
     --lm-button-bg-image-hover: none;
@@ -570,14 +570,14 @@ Credits:
     --lm-button-bg-color-focus: var(--lm-button-bg-color);
     --lm-button-bg-image-focus: var(--lm-button-bg-image);
     --lm-button-border-color-focus: var(--lm-button-border-color);
-    --lm-button-box-shadow-focus: 0 0 0 0.2rem var(--primary-box-shadow-color-darker);
+    --lm-button-box-shadow-focus: 0 0 0 2px var(--primary-box-shadow-color-darker);
     --lm-button-outline-color-focus: transparent;
 
     --dm-button-text-color: var(--dm-base-text-color);
     --dm-button-bg-color: rgba(255, 255, 255, 0.05);
     --dm-button-bg-image: none;
     --dm-button-border-color: rgba(255, 255, 255, 0.025) transparent transparent transparent;
-    --dm-button-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.1);
+    --dm-button-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
     --dm-button-text-color-hover: var(--dm-button-text-color);
     --dm-button-bg-color-hover: rgba(255, 255, 255, 0.1);
     --dm-button-bg-image-hover: none;
@@ -587,7 +587,7 @@ Credits:
     --dm-button-bg-color-focus: var(--dm-button-bg-color);
     --dm-button-bg-image-focus: var(--dm-button-bg-image);
     --dm-button-border-color-focus: rgba(0, 0, 0, 0.4); 
-    --dm-button-box-shadow-focus: 0 0 0 0.2rem var(--primary-box-shadow-color);
+    --dm-button-box-shadow-focus: 0 0 0 2px var(--primary-box-shadow-color);
     --dm-button-outline-color-focus: transparent;
 
     
@@ -596,7 +596,7 @@ Credits:
     --dm-button-alt-bg-color: rgba(0, 0, 0, 0.15);
     --dm-button-alt-bg-image: none;
     --dm-button-alt-border-color: rgba(0, 0, 0, 0.05);
-    --dm-button-alt-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.025);
+    --dm-button-alt-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.025);
     --dm-button-alt-text-color-hover: var(--dm-button-alt-text-color);
     --dm-button-alt-bg-color-hover: rgba(0, 0, 0, 0.2);
     --dm-button-alt-bg-image-hover: none;
@@ -661,7 +661,7 @@ Credits:
     --lm-button-primary-bg-color-focus: var(--lm-button-primary-bg-color);
     --lm-button-primary-bg-image-focus: var(--lm-button-primary-bg-image);
     --lm-button-primary-border-color-focus: var(--lm-button-primary-border-color);
-    --lm-button-primary-box-shadow-focus: 0 0 0 0.3rem var(--primary-box-shadow-color);
+    --lm-button-primary-box-shadow-focus: 0 0 0 3px var(--primary-box-shadow-color);
     --lm-button-primary-outline-color-focus: var(--lm-button-outline-color-focus);
 
     --dm-button-primary-text-color: var(--text-color-on-primary-color-bg);
@@ -678,7 +678,7 @@ Credits:
     --dm-button-primary-bg-color-focus: var(--dm-button-primary-bg-color);
     --dm-button-primary-bg-image-focus: var(--dm-button-primary-bg-image);
     --dm-button-primary-border-color-focus: var(--dm-button-primary-border-color);
-    --dm-button-primary-box-shadow-focus: 0 0 0 0.3rem var(--primary-box-shadow-color);
+    --dm-button-primary-box-shadow-focus: 0 0 0 3px var(--primary-box-shadow-color);
     --dm-button-primary-outline-color-focus: var(--dm-button-outline-color-focus);
 
     
@@ -697,7 +697,7 @@ Credits:
     --lm-button-success-bg-color-focus: var(--lm-button-success-bg-color);
     --lm-button-success-bg-image-focus: var(--lm-button-success-bg-image);
     --lm-button-success-border-color-focus: var(--lm-button-success-border-color);
-    --lm-button-success-box-shadow-focus: 0 0 0 0.3rem var(--success-box-shadow-color);
+    --lm-button-success-box-shadow-focus: 0 0 0 3px var(--success-box-shadow-color);
     --lm-button-success-outline-color-focus: var(--lm-button-outline-color-focus);
 
     --dm-button-success-text-color: var(--text-color-on-success-color-bg);
@@ -714,7 +714,7 @@ Credits:
     --dm-button-success-bg-color-focus: var(--dm-button-success-bg-color);
     --dm-button-success-bg-image-focus: var(--dm-button-success-bg-image);
     --dm-button-success-border-color-focus: var(--dm-button-success-border-color);
-    --dm-button-success-box-shadow-focus: 0 0 0 0.3rem var(--success-box-shadow-color);
+    --dm-button-success-box-shadow-focus: 0 0 0 3px var(--success-box-shadow-color);
     --dm-button-success-outline-color-focus: var(--dm-button-outline-color-focus);
 
     
@@ -733,7 +733,7 @@ Credits:
     --lm-button-secondary-bg-color-focus: var(--lm-button-secondary-bg-color);
     --lm-button-secondary-bg-image-focus: var(--lm-button-secondary-bg-image);
     --lm-button-secondary-border-color-focus: var(--lm-button-secondary-border-color);
-    --lm-button-secondary-box-shadow-focus: 0 0 0 0.3rem var(--secondary-box-shadow-color);
+    --lm-button-secondary-box-shadow-focus: 0 0 0 3px var(--secondary-box-shadow-color);
     --lm-button-secondary-outline-color-focus: var(--lm-button-outline-color-focus);
 
     --dm-button-secondary-text-color: var(--text-color-on-secondary-color-bg);
@@ -750,7 +750,7 @@ Credits:
     --dm-button-secondary-bg-color-focus: var(--dm-button-secondary-bg-color);
     --dm-button-secondary-bg-image-focus: var(--dm-button-secondary-bg-image);
     --dm-button-secondary-border-color-focus: var(--dm-button-secondary-border-color);
-    --dm-button-secondary-box-shadow-focus: 0 0 0 0.3rem var(--secondary-box-shadow-color);
+    --dm-button-secondary-box-shadow-focus: 0 0 0 3px var(--secondary-box-shadow-color);
     --dm-button-secondary-outline-color-focus: var(--dm-button-outline-color-focus);
 
     
@@ -769,7 +769,7 @@ Credits:
     --lm-button-danger-bg-color-focus: var(--lm-button-danger-bg-color);
     --lm-button-danger-bg-image-focus: var(--lm-button-danger-bg-image);
     --lm-button-danger-border-color-focus: var(--lm-button-danger-border-color);
-    --lm-button-danger-box-shadow-focus: 0 0 0 0.3rem var(--danger-box-shadow-color);
+    --lm-button-danger-box-shadow-focus: 0 0 0 3px var(--danger-box-shadow-color);
     --lm-button-danger-outline-color-focus: var(--lm-button-outline-color-focus);
 
     --dm-button-danger-text-color: var(--text-color-on-danger-color-bg);
@@ -786,7 +786,7 @@ Credits:
     --dm-button-danger-bg-color-focus: var(--dm-button-danger-bg-color);
     --dm-button-danger-bg-image-focus: var(--dm-button-danger-bg-image);
     --dm-button-danger-border-color-focus: var(--dm-button-danger-border-color);
-    --dm-button-danger-box-shadow-focus: 0 0 0 0.3rem var(--danger-box-shadow-color);
+    --dm-button-danger-box-shadow-focus: 0 0 0 3px var(--danger-box-shadow-color);
     --dm-button-danger-outline-color-focus: var(--dm-button-outline-color-focus);
 
     
@@ -797,12 +797,12 @@ Credits:
 
     
 
-    --code-font-size: 1.2rem;
+    --code-font-size: 12px;
     --code-line-height: var(--base-line-height);
-    --code-padding: 0.1rem 0.5rem;
-    --code-margin: 0 0.1rem;
+    --code-padding: 1px 5px;
+    --code-margin: 0 1px;
     --code-border-width: var(--base-border-width);
-    --code-border-radius: 0.2rem;
+    --code-border-radius: 2px;
 
     --lm-code-text-color: var(--lm-base-text-color);
     --lm-code-bg-color: var(--gray-color-light);
@@ -819,7 +819,7 @@ Credits:
     --kbd-padding: var(--code-padding);
     --kbd-margin: var(--code-margin);
     --kbd-border-width: var(--code-border-width);
-    --kbd-border-radius: 0.4rem; 
+    --kbd-border-radius: 4px; 
 
     --lm-kbd-text-color: var(--lm-base-text-color);
     --lm-kbd-bg-color: var(--white-bg-color);
@@ -832,7 +832,7 @@ Credits:
 
     
 
-    --table-padding: 1.2rem 1.5rem;
+    --table-padding: 12px 15px;
     --table-header-cell-font-weight: 700;
     --table-head-row-border-bottom-border-width: 2px;
     --table-foot-row-border-top-border-width: 2px;
@@ -905,15 +905,15 @@ Credits:
 
     
 
-    --label-margin-bottom: 0.6rem;
+    --label-margin-bottom: 6px;
     --legend-margin-bottom: var(--label-margin-bottom);
-    --form-group-margin-bottom: 2rem;
+    --form-group-margin-bottom: 20px;
 
     --form-row-and-col-margin-bottom: var(--form-group-margin-bottom);
-    --form-col-horizontal-padding: 1rem;
+    --form-col-horizontal-padding: 10px;
 
     --form-text-font-size: var(--base-font-size);
-    --form-text-padding-top: 0.8rem;
+    --form-text-padding-top: 8px;
     --form-text-padding-bottom: var(--form-text-padding-top);
     --form-text-border-width: var(--base-border-width);
     --form-text-border-type: dotted;
@@ -925,30 +925,30 @@ Credits:
     --dm-form-text-border-color: rgba(255, 255, 255, 0.1);
 
     --invalid-feedback-font-size: var(--base-font-size);
-    --invalid-feedback-padding-top: 0.8rem;
+    --invalid-feedback-padding-top: 8px;
     --invalid-feedback-padding-bottom: var(--invalid-feedback-padding-top);
 
     --lm-invalid-feedback-text-color: var(--danger-color);
 
     --dm-invalid-feedback-text-color: var(--danger-color);
 
-    --form-inline-horizontal-margin: 1rem;
+    --form-inline-horizontal-margin: 10px;
 
 
     
 
-    --input-height: 3.2rem;
-    --input-horizontal-padding: 0.8rem;
+    --input-height: 32px;
+    --input-horizontal-padding: 8px;
     --input-border-width: var(--base-border-width);
     --input-border-radius: var(--base-border-radius);
 
-    --small-input-height: 2.6rem;
+    --small-input-height: 26px;
     --small-input-horizontal-padding: var(--input-horizontal-padding);
-    --small-input-font-size: 1.2rem;
+    --small-input-font-size: 12px;
 
-    --large-input-height: 4rem;
+    --large-input-height: 40px;
     --large-input-horizontal-padding: var(--input-horizontal-padding);
-    --large-input-font-size: 1.8rem;
+    --large-input-font-size: 18px;
 
     --textarea-line-height: var(--base-line-height);
 
@@ -963,7 +963,7 @@ Credits:
     --lm-input-text-color-focus: var(--lm-input-text-color);
     --lm-input-bg-color-focus: var(--lm-input-bg-color);
     --lm-input-border-color-focus: var(--lm-input-border-color);
-    --lm-input-box-shadow-focus: 0 0 0 0.2rem var(--primary-box-shadow-color-darker);
+    --lm-input-box-shadow-focus: 0 0 0 2px var(--primary-box-shadow-color-darker);
     --lm-input-placeholder-text-color: rgba(0, 0, 0, 0.35);
     --lm-input-text-color-disabled: var(--lm-input-text-color);
     --lm-input-bg-color-disabled: var(--gray-color-light);
@@ -980,7 +980,7 @@ Credits:
     --dm-input-text-color-focus: var(--dm-input-text-color);
     --dm-input-bg-color-focus: var(--dm-input-bg-color);
     --dm-input-border-color-focus: var(--dm-input-border-color-hover);
-    --dm-input-box-shadow-focus: 0 0 0 0.2rem var(--primary-box-shadow-color);
+    --dm-input-box-shadow-focus: 0 0 0 2px var(--primary-box-shadow-color);
     --dm-input-placeholder-text-color: rgba(255, 255, 255, 0.2);
     --dm-input-text-color-disabled: var(--dm-input-text-color);
     --dm-input-bg-color-disabled: rgba(0, 0, 0, 0.15);
@@ -1018,7 +1018,7 @@ Credits:
     --lm-input-invalid-text-color-focus: var(--lm-input-text-color-focus);
     --lm-input-invalid-bg-color-focus: var(--lm-input-bg-color-focus);
     --lm-input-invalid-border-color-focus: var(--danger-color-very-light);
-    --lm-input-invalid-box-shadow-focus: 0 0 0 0.2rem var(--danger-box-shadow-color-darker);
+    --lm-input-invalid-box-shadow-focus: 0 0 0 2px var(--danger-box-shadow-color-darker);
     --lm-input-invalid-placeholder-text-color: var(--lm-input-placeholder-text-color);
 
     --dm-input-invalid-text-color: var(--dm-input-text-color);
@@ -1032,7 +1032,7 @@ Credits:
     --dm-input-invalid-text-color-focus: var(--dm-input-text-color-focus);
     --dm-input-invalid-bg-color-focus: var(--dm-input-bg-color-focus);
     --dm-input-invalid-border-color-focus: var(--dm-input-invalid-border-color);
-    --dm-input-invalid-box-shadow-focus: 0 0 0 0.2rem var(--danger-box-shadow-color);
+    --dm-input-invalid-box-shadow-focus: 0 0 0 2px var(--danger-box-shadow-color);
     --dm-input-invalid-placeholder-text-color: var(--dm-input-placeholder-text-color);
 
     --dm-input-alt-invalid-text-color: var(--dm-input-alt-text-color);
@@ -1052,19 +1052,19 @@ Credits:
     
 
     --select-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAI9JREFUeNpiZACCyMjIBCDVD8SOy5cvv8BAAgDqNQBS+4G4EKh3ASPUsPlQ+Q+kGIpkmABUKJEJ6jIYAEnshyok1TAQ6AcZ6Ah1GdGG4jAM7DtGQgrQvU9ILSOxColVw0is7VA2QV8wkhA+DMQECSMJgc5AyDCcBhIwFG9aZSQxrRFM+IwkJGAGYnIRQIABACQuXCKovu2mAAAAAElFTkSuQmCC);
-    --select-bg-size: 1rem;
+    --select-bg-size: 10px;
     --select-bg-repeat: no-repeat;
-    --select-bg-position: calc(100% - 1rem) center;
-    --select-padding-right: 3.6rem; 
+    --select-bg-position: calc(100% - 10px) center;
+    --select-padding-right: 36px; 
 
 
     
 
     --checkbox-border-width: var(--base-border-width);
     --checkbox-border-radius: var(--base-border-radius);
-    --checkbox-width-height: 1.8rem;
+    --checkbox-width-height: 18px;
     --checkbox-line-height: var(--checkbox-width-height);
-    --checkbox-label-padding-left: 2.5rem;
+    --checkbox-label-padding-left: 25px;
     --checkbox-label-blank-padding-left: var(--checkbox-width-height);
 
     --lm-checkbox-bg-color: #ffffff;
@@ -1076,7 +1076,7 @@ Credits:
     --lm-checkbox-border-color-focus: var(--lm-input-border-color-focus);
     --lm-checkbox-box-shadow-focus: var(--lm-input-box-shadow-focus);
     --lm-checkbox-border-color-checked-focus: var(--lm-checkbox-border-color-checked);
-    --lm-checkbox-box-shadow-checked-focus: 0 0 0 0.3rem var(--primary-box-shadow-color); 
+    --lm-checkbox-box-shadow-checked-focus: 0 0 0 3px var(--primary-box-shadow-color); 
 
     --dm-checkbox-bg-color: transparent;
     --dm-checkbox-border-color: rgba(255, 255, 255, 0.15);
@@ -1087,13 +1087,13 @@ Credits:
     --dm-checkbox-border-color-focus: var(--dm-input-border-color-focus);
     --dm-checkbox-box-shadow-focus: var(--dm-input-box-shadow-focus);
     --dm-checkbox-border-color-checked-focus: var(--dm-checkbox-border-color-checked);
-    --dm-checkbox-box-shadow-checked-focus: 0 0 0 0.3rem var(--primary-box-shadow-color); 
+    --dm-checkbox-box-shadow-checked-focus: 0 0 0 3px var(--primary-box-shadow-color); 
 
-    --checkbox-checkmark-left: 0.6rem;
-    --checkbox-checkmark-top: 0.3rem;
-    --checkbox-checkmark-width: 0.6rem;
-    --checkbox-checkmark-height: 1rem;
-    --checkbox-checkmark-border-width: 0 0.2rem 0.2rem 0;
+    --checkbox-checkmark-left: 6px;
+    --checkbox-checkmark-top: 3px;
+    --checkbox-checkmark-width: 6px;
+    --checkbox-checkmark-height: 10px;
+    --checkbox-checkmark-border-width: 0 2px 2px 0;
     --checkbox-checkmark-transform: rotate(45deg);
 
     --lm-checkbox-checkmark-color: #ffffff;
@@ -1105,12 +1105,12 @@ Credits:
 
     --radio-border-width: var(--base-border-width);
     --radio-border-radius: 50%;
-    --radio-width-height: 1.6rem;
+    --radio-width-height: 16px;
     --radio-line-height: var(--radio-width-height);
-    --radio-label-padding-left: 2.5rem;
+    --radio-label-padding-left: 25px;
     --radio-label-blank-padding-left: var(--radio-width-height);
 
-    --form-group-radio-margin: 0.8rem 0 0 0; 
+    --form-group-radio-margin: 8px 0 0 0; 
 
     --lm-radio-bg-color: #ffffff;
     --lm-radio-border-color: rgba(0, 0, 0, 0.3);
@@ -1135,9 +1135,9 @@ Credits:
     --dm-radio-box-shadow-checked-focus: var(--dm-checkbox-box-shadow-checked-focus);
 
     --radio-checkmark-border-radius: var(--radio-border-radius);
-    --radio-checkmark-top: 0.5rem;
-    --radio-checkmark-left: 0.5rem;
-    --radio-checkmark-width-height: 0.6rem;
+    --radio-checkmark-top: 5px;
+    --radio-checkmark-left: 5px;
+    --radio-checkmark-width-height: 6px;
 
     --lm-radio-checkmark-color: #ffffff;
 
@@ -1147,11 +1147,11 @@ Credits:
     
 
     --switch-border-width: var(--base-border-width);
-    --switch-border-radius: 2rem;
-    --switch-width: 3.2rem;
-    --switch-height: 2rem;
+    --switch-border-radius: 20px;
+    --switch-width: 32px;
+    --switch-height: 20px;
     --switch-line-height: var(--switch-height);
-    --switch-label-padding-left: calc(var(--switch-width) + 0.8rem);
+    --switch-label-padding-left: calc(var(--switch-width) + 8px);
     --switch-label-blank-padding-left: var(--switch-width);
 
     --lm-switch-bg-color: #ffffff;
@@ -1178,9 +1178,9 @@ Credits:
 
     --switch-slider-border-width: 0;
     --switch-slider-border-radius: 50%;
-    --switch-slider-width-height: 1.2rem;
-    --switch-slider-top: 0.4rem;
-    --switch-slider-left: 0.5rem;
+    --switch-slider-width-height: 12px;
+    --switch-slider-top: 4px;
+    --switch-slider-left: 5px;
     --switch-slider-top-checked: var(--switch-slider-top);
     --switch-slider-left-checked: calc(var(--switch-width) - var(--switch-slider-width-height) - var(--switch-slider-left));
 
@@ -1345,8 +1345,8 @@ Credits:
 
     --dropdown-menu-border-width: var(--base-border-width);
     --dropdown-menu-border-radius: var(--base-border-radius);
-    --dropdown-menu-padding: 0.4rem;
-    --dropdown-menu-min-width: 16.8rem;
+    --dropdown-menu-padding: 4px;
+    --dropdown-menu-min-width: 168px;
 
     --lm-dropdown-menu-text-color: var(--lm-base-text-color);
     --lm-dropdown-menu-bg-color: var(--white-bg-color);
@@ -1360,13 +1360,13 @@ Credits:
     --dm-dropdown-menu-border-color: var(--dark-color-dark);  
     --dm-dropdown-menu-box-shadow: var(--dm-shadow);
 
-    --dropdown-arrow-size: 0.8rem;
+    --dropdown-arrow-size: 8px;
     --dropdown-arrow-size-negative: calc(var(--dropdown-arrow-size) * -1);
-    --dropdown-arrow-inner-spacing: calc(0.2rem + (var(--dropdown-arrow-size) * -1)); 
-    --dropdown-arrow-horizontal-spacing: 0.8rem;
-    --dropdown-arrow-vertical-spacing: 0.8rem;
+    --dropdown-arrow-inner-spacing: calc(2px + (var(--dropdown-arrow-size) * -1)); 
+    --dropdown-arrow-horizontal-spacing: 8px;
+    --dropdown-arrow-vertical-spacing: 8px;
 
-    --dropdown-content-padding: 1.2rem;
+    --dropdown-content-padding: 12px;
 
     --dropdown-divider-height: 1px;
 
@@ -1374,8 +1374,8 @@ Credits:
 
     --dm-dropdown-divider-bg-color: var(--dm-horizontal-rule-color);
 
-    --dropdown-item-padding: 0.6rem var(--dropdown-content-padding);
-    --dropdown-item-border-radius: 0.2rem;
+    --dropdown-item-padding: 6px var(--dropdown-content-padding);
+    --dropdown-item-border-radius: 2px;
 
     --lm-dropdown-item-text-color: var(--lm-dropdown-menu-text-color);
     --lm-dropdown-item-bg-color: transparent;
@@ -1405,7 +1405,7 @@ Credits:
 
     
 
-    --modal-content-width: 40rem;
+    --modal-content-width: 400px;
     --modal-content-padding: var(--content-and-card-spacing);
     --modal-content-padding-xs: var(--content-and-card-spacing-xs);
     --modal-content-border-width: var(--card-border-width);
@@ -1441,8 +1441,8 @@ Credits:
 
     
 
-    --modal-close-font-size: 2rem;
-    --modal-close-width-height: 4rem;
+    --modal-close-font-size: 20px;
+    --modal-close-width-height: 40px;
     --modal-close-border-radius: 50%;
     --modal-close-outline-width: 2px;
     --modal-close-outline-type: solid;
@@ -1463,7 +1463,7 @@ Credits:
 
     
 
-    --alert-padding: 1rem 2rem;
+    --alert-padding: 10px 20px;
     --alert-border-width: var(--base-border-width);
     --alert-border-radius: var(--base-border-radius);
 
@@ -1477,12 +1477,12 @@ Credits:
     --dm-alert-bg-image: none;
     --dm-alert-border-color: rgba(255, 255, 255, 0.1);
 
-    --alert-heading-font-size: 1.6rem;
+    --alert-heading-font-size: 16px;
     --alert-heading-font-weight: var(--content-title-font-weight);
-    --alert-heading-margin: 0 0 0.5rem 0;
+    --alert-heading-margin: 0 0 5px 0;
 
-    --alert-close-font-size: 1.6rem;
-    --alert-close-padding: 0.4rem 0.6rem;
+    --alert-close-font-size: 16px;
+    --alert-close-padding: 4px 6px;
     --alert-close-line-height: 1;
     --alert-close-outline-width: 2px;
     --alert-close-outline-type: solid;
@@ -1494,8 +1494,8 @@ Credits:
 
     
 
-    --sticky-alert-width: 27rem;
-    --sticky-alert-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.045);
+    --sticky-alert-width: 270px;
+    --sticky-alert-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
 
     
 
@@ -1594,7 +1594,7 @@ Credits:
 
     --navbar-container-horizontal-padding: calc(var(--content-and-card-spacing) - var(--navbar-horizontal-padding));
     --navbar-container-horizontal-padding-xs: calc(var(--content-and-card-spacing-xs) - var(--navbar-horizontal-padding));
-    --navbar-content-horizontal-margin: 1.5rem;
+    --navbar-content-horizontal-margin: 15px;
 
     --lm-navbar-text-color: var(--lm-base-text-color-light);
 
@@ -1622,10 +1622,10 @@ Credits:
     --dm-navbar-link-active-text-color-hover: var(--primary-color-light);
     --dm-navbar-link-active-bg-color-hover: var(--dm-navbar-link-bg-color-hover);
 
-    --navbar-brand-font-size: 2rem;
+    --navbar-brand-font-size: 20px;
     --navbar-brand-font-weight: 500;
-    --navbar-brand-image-height: 2.2rem;
-    --navbar-brand-image-margin-right: 1rem;
+    --navbar-brand-image-height: 22px;
+    --navbar-brand-image-margin-right: 10px;
 
     --lm-navbar-brand-text-color: var(--lm-base-text-color);
     --lm-navbar-brand-text-color-hover: var(--lm-base-text-color-light);
@@ -1633,26 +1633,26 @@ Credits:
     --dm-navbar-brand-text-color: var(--dm-base-text-color);
     --dm-navbar-brand-text-color-hover: var(--dm-base-text-color-light);
 
-    --navbar-action-button-width: 3.6rem;
+    --navbar-action-button-width: 36px;
     --navbar-action-button-horizontal-padding: 0;
 
-    --navbar-input-min-width: 12rem;
-    --navbar-input-group-min-width: 20rem;
-    --navbar-input-min-width-xs: 10rem;
-    --navbar-input-group-min-width-xs: 18rem;
+    --navbar-input-min-width: 120px;
+    --navbar-input-group-min-width: 200px;
+    --navbar-input-min-width-xs: 100px;
+    --navbar-input-group-min-width-xs: 180px;
 
 
     
 
-    --sidebar-menu-vertical-margin: 2.5rem;
+    --sidebar-menu-vertical-margin: 25px;
 
-    --sidebar-item-horizontal-spacing: 2.5rem;
-    --sidebar-item-vertical-spacing: 0.5rem;
+    --sidebar-item-horizontal-spacing: 25px;
+    --sidebar-item-vertical-spacing: 5px;
     
     --sidebar-content-padding: 0;
     --sidebar-content-margin: var(--sidebar-menu-vertical-margin) var(--sidebar-item-horizontal-spacing);
 
-    --sidebar-link-height: 3rem;
+    --sidebar-link-height: 30px;
     --sidebar-link-padding: var(--sidebar-item-vertical-spacing) var(--sidebar-item-horizontal-spacing);
     --sidebar-link-margin: 0;
     --sidebar-link-border-width: 0;
@@ -1694,16 +1694,16 @@ Credits:
 
     --sidebar-title-padding: 0;
     --sidebar-title-margin: var(--sidebar-item-vertical-spacing) var(--sidebar-item-horizontal-spacing);
-    --sidebar-title-font-size: 1.5rem;
+    --sidebar-title-font-size: 15px;
     --sidebar-title-font-weight: var(--content-title-font-weight);
 
     --lm-sidebar-title-text-color: var(--lm-base-text-color);
 
     --dm-sidebar-title-text-color: var(--dm-base-text-color);
 
-    --sidebar-icon-width-height: 3rem;
-    --sidebar-icon-font-size: 1.6rem;
-    --sidebar-icon-margin-right: 1rem;
+    --sidebar-icon-width-height: 30px;
+    --sidebar-icon-font-size: 16px;
+    --sidebar-icon-margin-right: 10px;
     --sidebar-icon-border-width: 0;
     --sidebar-icon-border-radius: var(--base-border-radius);
 
@@ -1749,10 +1749,10 @@ Credits:
 
     
 
-    --pagination-item-padding: 0 0.5rem;
-    --pagination-item-margin: 0 0.2rem 0.5rem 0;
+    --pagination-item-padding: 0 5px;
+    --pagination-item-margin: 0 2px 5px 0;
     --pagination-item-font-size: var(--base-font-size);
-    --pagination-item-width: 3.5rem;
+    --pagination-item-width: 35px;
     --pagination-item-height: var(--pagination-item-width);
     --pagination-item-line-height: var(--pagination-item-height);
     --pagination-item-border-width: var(--button-border-width);
@@ -1761,14 +1761,14 @@ Credits:
     --large-pagination-item-padding: var(--pagination-item-padding);
     --large-pagination-item-margin: var(--pagination-item-margin);
     --large-pagination-item-font-size: var(--large-button-font-size);
-    --large-pagination-item-width: 4.2rem;
+    --large-pagination-item-width: 42px;
     --large-pagination-item-height: var(--large-pagination-item-width);
     --large-pagination-item-line-height: var(--large-pagination-item-height);
 
     --small-pagination-item-padding: var(--pagination-item-padding);
     --small-pagination-item-margin: var(--pagination-item-margin);
     --small-pagination-item-font-size: var(--small-button-font-size);
-    --small-pagination-item-width: 2.8rem;
+    --small-pagination-item-width: 28px;
     --small-pagination-item-height: var(--small-pagination-item-width);
     --small-pagination-item-line-height: var(--small-pagination-item-height);
 
@@ -1818,18 +1818,18 @@ Credits:
     --dm-breadcrumb-border-color: transparent;
 
     --breadcrumb-separator-content: "\002F";
-    --breadcrumb-separator-margin-left: 1rem;
-    --breadcrumb-separator-margin-right: 1.5rem;
+    --breadcrumb-separator-margin-left: 10px;
+    --breadcrumb-separator-margin-right: 15px;
 
 
     
 
-    --tooltip-arrow-width: 1rem;
+    --tooltip-arrow-width: 10px;
     --tooltip-arrow-height: var(--tooltip-arrow-width);
-    --tooltip-font-size: 1.2rem;
+    --tooltip-font-size: 12px;
     --tooltip-line-height: var(--base-line-height);
-    --tooltip-padding: 0.5rem 1rem;
-    --tooltip-width: 10rem;
+    --tooltip-padding: 5px 10px;
+    --tooltip-width: 100px;
 
     --lm-tooltip-text-color: var(--dm-base-text-color);
     --lm-tooltip-bg-color: var(--dark-color);
@@ -1840,12 +1840,12 @@ Credits:
 
     
 
-    --badge-font-size: 1.2rem;
+    --badge-font-size: 12px;
     --badge-line-height: 1.2;
-    --badge-padding: 0.2rem 0.8rem;
+    --badge-padding: 2px 8px;
     --badge-border-width: var(--base-border-width);
     --badge-border-radius: var(--base-border-radius);
-    --badge-pill-border-radius: 3rem;
+    --badge-pill-border-radius: 30px;
 
     --lm-badge-text-color: var(--lm-base-text-color);
     --lm-badge-bg-color: #ffffff;
@@ -1994,15 +1994,15 @@ Credits:
 
     
 
-    --button-toolbar-input-group-min-width: 20rem;
-    --button-toolbar-input-group-min-width-xs: 18rem;
+    --button-toolbar-input-group-min-width: 200px;
+    --button-toolbar-input-group-min-width-xs: 180px;
 
 
     
 
     
 
-    --collapse-header-padding: 1.2rem 2rem;
+    --collapse-header-padding: 12px 20px;
     --collapse-header-font-size: var(--base-font-size);
     --collapse-header-border-radius: var(--base-border-radius);
     --collapse-header-border-width: var(--base-border-width);
@@ -2049,34 +2049,34 @@ Credits:
 
     
 
-    --collapse-header-padding-with-bg-image: 1.2rem 2rem 1.2rem 4.4rem; 
+    --collapse-header-padding-with-bg-image: 12px 20px 12px 44px; 
     --collapse-header-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AgHFAwNJY24UQAAAJVJREFUKM+lk8ENgzAMRZ9hgS4SiRFgDN+6QifpCD1mDFbIIQuwASNwcaSqKsEW/5RI/1n+jiMAqvoE3sCScy50JGb+2H2/ggar3PQAVlWdesBilV2QWIYJWM1Mrz1pBy8k37QHkt8eryD5F6wHydn4zqCBoO63FAodGmvo4UKrETG3bXWbG/DymgHGWmtJKW3A7PmiB2rUYYave/NSAAAAAElFTkSuQmCC);
-    --collapse-header-bg-size: 0.6rem;
+    --collapse-header-bg-size: 6px;
     --collapse-header-bg-repeat: no-repeat;
-    --collapse-header-bg-position: 2rem center;
+    --collapse-header-bg-position: 20px center;
 
     --open-collapse-header-padding-with-bg-image: var(--collapse-header-padding-with-bg-image);
     --open-collapse-header-bg-image: var(--select-bg-image);
-    --open-collapse-header-bg-size: 1rem;
+    --open-collapse-header-bg-size: 10px;
     --open-collapse-header-bg-repeat: var(--collapse-header-bg-repeat);
     --open-collapse-header-bg-position: var(--collapse-header-bg-position);
 
     
 
     --collapse-header-focus-effect-display: block;
-    --collapse-header-focus-effect-top: 0.2rem;
+    --collapse-header-focus-effect-top: 2px;
     --collapse-header-focus-effect-left: var(--collapse-header-focus-effect-top);
     --collapse-header-focus-effect-width: calc(100% - (2 * var(--collapse-header-focus-effect-left)));
     --collapse-header-focus-effect-height: calc(100% - (2 * var(--collapse-header-focus-effect-top)));
     --collapse-header-focus-effect-border-radius: var(--base-border-radius);
 
-    --lm-collapse-header-focus-effect-box-shadow: inset 0 0 0 0.2rem var(--primary-color-light);
+    --lm-collapse-header-focus-effect-box-shadow: inset 0 0 0 2px var(--primary-color-light);
 
-    --dm-collapse-header-focus-effect-box-shadow: inset 0 0 0 0.2rem var(--primary-color-dark);
+    --dm-collapse-header-focus-effect-box-shadow: inset 0 0 0 2px var(--primary-color-dark);
 
     
 
-    --collapse-content-padding: 2rem;
+    --collapse-content-padding: 20px;
     --collapse-content-font-size: var(--base-font-size);
     --collapse-content-border-radius: var(--base-border-radius);
     --collapse-content-border-width: var(--base-border-width);
@@ -2094,10 +2094,10 @@ Credits:
 
     
 
-    --progress-height: 0.8rem;
-    --progress-font-size: 1.2rem;
+    --progress-height: 8px;
+    --progress-font-size: 12px;
     --progress-line-height: 0;
-    --progress-border-radius: 3.2rem;
+    --progress-border-radius: 32px;
 
     --lm-progress-bg-color: rgba(0, 0, 0, 0.1);
 
@@ -2113,7 +2113,7 @@ Credits:
 
     
 
-    --progress-group-item-margin: 0.4rem;
+    --progress-group-item-margin: 4px;
     --progress-group-label-font-size: var(--base-font-size);
 
     
@@ -2128,7 +2128,7 @@ Credits:
 
 
 
-html {
+html.codeberg-design {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
@@ -2286,7 +2286,7 @@ html {
 
 
 
-html {
+html.codeberg-design {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2299,16 +2299,16 @@ html {
 
 
 
-html {
+html.codeberg-design {
     font-size: var(--base-html-font-size);
 }
 @media (min-width: 1600px) {
-.codeberg-design     html {
+html.codeberg-design {
         font-size: var(--base-html-font-size-1600);
     }
 }
 @media (min-width: 1920px) {
-.codeberg-design     html {
+html.codeberg-design {
         font-size: var(--base-html-font-size-1920);
     }
 }
@@ -2316,12 +2316,12 @@ html {
 
 
 @media (min-width: 1600px) {
-.codeberg-design     html.auto-scaling-disabled {
+html.codeberg-design.auto-scaling-disabled {
         font-size: var(--base-html-font-size);
     }
 }
 @media (min-width: 1920px) {
-.codeberg-design     html.auto-scaling-disabled {
+html.codeberg-design.auto-scaling-disabled {
         font-size: var(--base-html-font-size);
     }
 }
@@ -2367,31 +2367,31 @@ html {
 .codeberg-design h4,
 .codeberg-design h5,
 .codeberg-design h6 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-weight: var(--heading-font-weight);
 }
 .codeberg-design h1 {
-    font-size: 4rem;
+    font-size: 40px;
     line-height: 1.3;
 }
 .codeberg-design h2 {
-    font-size: 3.6rem;
+    font-size: 36px;
     line-height: 1.35;
 }
 .codeberg-design h3 {
-    font-size: 3rem;
+    font-size: 30px;
     line-height: 1.4;
 }
 .codeberg-design h4 {
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 1.45;
 }
 .codeberg-design h5 {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 .codeberg-design h6 {
-    font-size: 1.5rem;
+    font-size: 15px;
 }
 
 
@@ -2683,8 +2683,8 @@ html {
 
 
 
-html,
-.codeberg-design {
+html.codeberg-design,
+html.codeberg-design>body {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -5480,10 +5480,10 @@ html,
 .codeberg-design ul ol,
 .codeberg-design ol ol,
 .codeberg-design ol ul {
-    margin: 1.5rem 0 1.5rem 3rem;
+    margin: 15px 0 15px 30px;
 }
 .codeberg-design li {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 
@@ -5783,7 +5783,7 @@ html,
 .codeberg-design label.required:after {
     content: "*";
     color: var(--danger-color);
-    margin-left: 0.3rem;
+    margin-left: 3px;
 }
 .codeberg-design legend {
     display: block;
@@ -6355,16 +6355,16 @@ html,
 }
 .codeberg-design textarea.form-control {
     max-width: 100%;
-    min-height: 10rem;
+    min-height: 100px;
     padding: var(--input-horizontal-padding);
     line-height: var(--textarea-line-height);
 }
 .codeberg-design textarea.form-control-sm {
-    min-height: 8rem;
+    min-height: 80px;
     padding: var(--small-input-horizontal-padding);
 }
 .codeberg-design textarea.form-control-lg {
-    min-height: 14rem;
+    min-height: 140px;
     padding: var(--large-input-horizontal-padding);
 }
 .codeberg-design .form-control:hover {
@@ -8157,7 +8157,7 @@ html,
     position: fixed;
     cursor: pointer;
     top: -100%;
-    left: 1rem;
+    left: 10px;
     z-index: 10;
     padding: 0;
     -webkit-transition: all .4s cubic-bezier(.25, .8, .25, 1);
@@ -8211,7 +8211,7 @@ html,
 }
 .codeberg-design .modal:target .modal-content .close,
 .codeberg-design .modal.show .modal-content .close {
-    top: 1rem;
+    top: 10px;
 }
 
 
@@ -8278,8 +8278,8 @@ html,
 .codeberg-design .sticky-alerts .alert {
     display: none;
     width: var(--sticky-alert-width);
-    margin-top: 1rem;
-    right: -50rem; 
+    margin-top: 10px;
+    right: -500px; 
     -moz-box-shadow: var(--sticky-alert-box-shadow);
     -webkit-box-shadow: var(--sticky-alert-box-shadow);
     box-shadow: var(--sticky-alert-box-shadow);
@@ -9007,7 +9007,7 @@ html,
 .codeberg-design [data-toggle="tooltip"]:not([data-placement])::before,
 .codeberg-design [data-toggle="tooltip"][data-placement="top"]::before {
     left: 50%;
-    top: -0.5rem;
+    top: -5px;
     transform: translate(-50%, -100%) rotate(45deg);
 }
 .codeberg-design [data-toggle="tooltip"]:not([data-placement])::after,
@@ -9021,7 +9021,7 @@ html,
 
 .codeberg-design [data-toggle="tooltip"][data-placement="bottom"]::before {
     left: 50%;
-    bottom: -0.5rem;
+    bottom: -5px;
     transform: translate(-50%, 100%) rotate(45deg);
 }
 .codeberg-design [data-toggle="tooltip"][data-placement="bottom"]::after {
@@ -9033,7 +9033,7 @@ html,
 
 
 .codeberg-design [data-toggle="tooltip"][data-placement="left"]::before {
-    left: -0.5rem;
+    left: -5px;
     transform: translate(-100%, 100%) rotate(45deg);
 }
 .codeberg-design [data-toggle="tooltip"][data-placement="left"]::after {
@@ -9045,7 +9045,7 @@ html,
 
 
 .codeberg-design [data-toggle="tooltip"][data-placement="right"]::before {
-    right: -0.5rem;
+    right: -5px;
     transform: translate(100%, 100%) rotate(45deg);
 }
 .codeberg-design [data-toggle="tooltip"][data-placement="right"]::after {
@@ -9081,22 +9081,22 @@ html,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="top"]:hover::after,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint]):not([data-placement]):focus::after,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="top"]:focus::after {
-    top: -1rem;
+    top: -10px;
     transform: translate(-50%, -100%);
 }
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="bottom"]:hover::after,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="bottom"]:focus::after {
-    bottom: -1rem;
+    bottom: -10px;
     transform: translate(-50%, 100%);
 }
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="left"]:hover::after,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="left"]:focus::after {
-    left: -1rem;
+    left: -10px;
     transform: translate(-100%, -50%);
 }
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="right"]:hover::after,
 .codeberg-design [data-toggle="tooltip"]:not([data-target-breakpoint])[data-placement="right"]:focus::after {
-    right: -1rem;
+    right: -10px;
     transform: translate(100%, -50%);
 }
 
@@ -9128,22 +9128,22 @@ html,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="top"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"]:not([data-placement]):focus::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="top"]:focus::after {
-        top: -1rem;
+        top: -10px;
         transform: translate(-50%, -100%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="bottom"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="bottom"]:focus::after {
-        bottom: -1rem;
+        bottom: -10px;
         transform: translate(-50%, 100%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="left"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="left"]:focus::after {
-        left: -1rem;
+        left: -10px;
         transform: translate(-100%, -50%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="right"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="md"][data-placement="right"]:focus::after {
-        right: -1rem;
+        right: -10px;
         transform: translate(100%, -50%);
     }
 }
@@ -9176,22 +9176,22 @@ html,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="top"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"]:not([data-placement]):focus::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="top"]:focus::after {
-        top: -1rem;
+        top: -10px;
         transform: translate(-50%, -100%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="bottom"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="bottom"]:focus::after {
-        bottom: -1rem;
+        bottom: -10px;
         transform: translate(-50%, 100%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="left"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="left"]:focus::after {
-        left: -1rem;
+        left: -10px;
         transform: translate(-100%, -50%);
     }
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="right"]:hover::after,
 .codeberg-design     [data-toggle="tooltip"][data-target-breakpoint="lg"][data-placement="right"]:focus::after {
-        right: -1rem;
+        right: -10px;
         transform: translate(100%, -50%);
     }
 }
@@ -10065,116 +10065,116 @@ html,
     padding: 0 !important;
 }
 .codeberg-design .p-5 {
-    padding: 0.5rem !important;
+    padding: 5px !important;
 }
 .codeberg-design .p-10 {
-    padding: 1rem !important;
+    padding: 10px !important;
 }
 .codeberg-design .p-15 {
-    padding: 1.5rem !important;
+    padding: 15px !important;
 }
 .codeberg-design .p-20 {
-    padding: 2rem !important;
+    padding: 20px !important;
 }
 .codeberg-design .px-0 {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 .codeberg-design .px-5 {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
 .codeberg-design .px-10 {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 .codeberg-design .px-15 {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 .codeberg-design .px-20 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 .codeberg-design .py-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
 .codeberg-design .py-5 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 .codeberg-design .py-10 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 .codeberg-design .py-15 {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 .codeberg-design .py-20 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 .codeberg-design .pt-0 {
     padding-top: 0 !important;
 }
 .codeberg-design .pt-5 {
-    padding-top: 0.5rem !important;
+    padding-top: 5px !important;
 }
 .codeberg-design .pt-10 {
-    padding-top: 1rem !important;
+    padding-top: 10px !important;
 }
 .codeberg-design .pt-15 {
-    padding-top: 1.5rem !important;
+    padding-top: 15px !important;
 }
 .codeberg-design .pt-20 {
-    padding-top: 2rem !important;
+    padding-top: 20px !important;
 }
 .codeberg-design .pb-0 {
     padding-bottom: 0 !important;
 }
 .codeberg-design .pb-5 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 5px !important;
 }
 .codeberg-design .pb-10 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 10px !important;
 }
 .codeberg-design .pb-15 {
-    padding-bottom: 1.5rem !important;
+    padding-bottom: 15px !important;
 }
 .codeberg-design .pb-20 {
-    padding-bottom: 2rem !important;
+    padding-bottom: 20px !important;
 }
 .codeberg-design .pl-0 {
     padding-left: 0 !important;
 }
 .codeberg-design .pl-5 {
-    padding-left: 0.5rem !important;
+    padding-left: 5px !important;
 }
 .codeberg-design .pl-10 {
-    padding-left: 1rem !important;
+    padding-left: 10px !important;
 }
 .codeberg-design .pl-15 {
-    padding-left: 1.5rem !important;
+    padding-left: 15px !important;
 }
 .codeberg-design .pl-20 {
-    padding-left: 2rem !important;
+    padding-left: 20px !important;
 }
 .codeberg-design .pr-0 {
     padding-right: 0 !important;
 }
 .codeberg-design .pr-5 {
-    padding-right: 0.5rem !important;
+    padding-right: 5px !important;
 }
 .codeberg-design .pr-10 {
-    padding-right: 1rem !important;
+    padding-right: 10px !important;
 }
 .codeberg-design .pr-15 {
-    padding-right: 1.5rem !important;
+    padding-right: 15px !important;
 }
 .codeberg-design .pr-20 {
-    padding-right: 2rem !important;
+    padding-right: 20px !important;
 }
 
 
@@ -10183,16 +10183,16 @@ html,
     margin: 0 !important;
 }
 .codeberg-design .m-5 {
-    margin: 0.5rem !important;
+    margin: 5px !important;
 }
 .codeberg-design .m-10 {
-    margin: 1rem !important;
+    margin: 10px !important;
 }
 .codeberg-design .m-15 {
-    margin: 1.5rem !important;
+    margin: 15px !important;
 }
 .codeberg-design .m-20 {
-    margin: 2rem !important;
+    margin: 20px !important;
 }
 .codeberg-design .m-auto {
     margin: auto !important;
@@ -10202,20 +10202,20 @@ html,
     margin-right: 0 !important;
 }
 .codeberg-design .mx-5 {
-    margin-left: 0.5rem !important;
-    margin-right: 0.5rem !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
 .codeberg-design .mx-10 {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
 .codeberg-design .mx-15 {
-    margin-left: 1.5rem !important;
-    margin-right: 1.5rem !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }
 .codeberg-design .mx-20 {
-    margin-left: 2rem !important;
-    margin-right: 2rem !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 .codeberg-design .mx-auto {
     margin-left: auto !important;
@@ -10226,20 +10226,20 @@ html,
     margin-bottom: 0 !important;
 }
 .codeberg-design .my-5 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
 }
 .codeberg-design .my-10 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 .codeberg-design .my-15 {
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 .codeberg-design .my-20 {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
 }
 .codeberg-design .my-auto {
     margin-top: auto !important;
@@ -10249,16 +10249,16 @@ html,
     margin-top: 0 !important;
 }
 .codeberg-design .mt-5 {
-    margin-top: 0.5rem !important;
+    margin-top: 5px !important;
 }
 .codeberg-design .mt-10 {
-    margin-top: 1rem !important;
+    margin-top: 10px !important;
 }
 .codeberg-design .mt-15 {
-    margin-top: 1.5rem !important;
+    margin-top: 15px !important;
 }
 .codeberg-design .mt-20 {
-    margin-top: 2rem !important;
+    margin-top: 20px !important;
 }
 .codeberg-design .mt-auto {
     margin-top: auto !important;
@@ -10267,16 +10267,16 @@ html,
     margin-bottom: 0 !important;
 }
 .codeberg-design .mb-5 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 5px !important;
 }
 .codeberg-design .mb-10 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 10px !important;
 }
 .codeberg-design .mb-15 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 15px !important;
 }
 .codeberg-design .mb-20 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 20px !important;
 }
 .codeberg-design .mb-auto {
     margin-bottom: auto !important;
@@ -10285,16 +10285,16 @@ html,
     margin-left: 0 !important;
 }
 .codeberg-design .ml-5 {
-    margin-left: 0.5rem !important;
+    margin-left: 5px !important;
 }
 .codeberg-design .ml-10 {
-    margin-left: 1rem !important;
+    margin-left: 10px !important;
 }
 .codeberg-design .ml-15 {
-    margin-left: 1.5rem !important;
+    margin-left: 15px !important;
 }
 .codeberg-design .ml-20 {
-    margin-left: 2rem !important;
+    margin-left: 20px !important;
 }
 .codeberg-design .ml-auto {
     margin-left: auto !important;
@@ -10303,16 +10303,16 @@ html,
     margin-right: 0 !important;
 }
 .codeberg-design .mr-5 {
-    margin-right: 0.5rem !important;
+    margin-right: 5px !important;
 }
 .codeberg-design .mr-10 {
-    margin-right: 1rem !important;
+    margin-right: 10px !important;
 }
 .codeberg-design .mr-15 {
-    margin-right: 1.5rem !important;
+    margin-right: 15px !important;
 }
 .codeberg-design .mr-20 {
-    margin-right: 2rem !important;
+    margin-right: 20px !important;
 }
 .codeberg-design .mr-auto {
     margin-right: auto !important;
@@ -10324,116 +10324,116 @@ html,
         padding: 0 !important;
     }
 .codeberg-design     .p-sm-5 {
-        padding: 0.5rem !important;
+        padding: 5px !important;
     }
 .codeberg-design     .p-sm-10 {
-        padding: 1rem !important;
+        padding: 10px !important;
     }
 .codeberg-design     .p-sm-15 {
-        padding: 1.5rem !important;
+        padding: 15px !important;
     }
 .codeberg-design     .p-sm-20 {
-        padding: 2rem !important;
+        padding: 20px !important;
     }
 .codeberg-design     .px-sm-0 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 .codeberg-design     .px-sm-5 {
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .px-sm-10 {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .px-sm-15 {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .px-sm-20 {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 .codeberg-design     .py-sm-0 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 .codeberg-design     .py-sm-5 {
-        padding-top: 0.5rem !important;
-        padding-bottom: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .py-sm-10 {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .py-sm-15 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .py-sm-20 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pt-sm-0 {
         padding-top: 0 !important;
     }
 .codeberg-design     .pt-sm-5 {
-        padding-top: 0.5rem !important;
+        padding-top: 5px !important;
     }
 .codeberg-design     .pt-sm-10 {
-        padding-top: 1rem !important;
+        padding-top: 10px !important;
     }
 .codeberg-design     .pt-sm-15 {
-        padding-top: 1.5rem !important;
+        padding-top: 15px !important;
     }
 .codeberg-design     .pt-sm-20 {
-        padding-top: 2rem !important;
+        padding-top: 20px !important;
     }
 .codeberg-design     .pb-sm-0 {
         padding-bottom: 0 !important;
     }
 .codeberg-design     .pb-sm-5 {
-        padding-bottom: 0.5rem !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .pb-sm-10 {
-        padding-bottom: 1rem !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .pb-sm-15 {
-        padding-bottom: 1.5rem !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .pb-sm-20 {
-        padding-bottom: 2rem !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pl-sm-0 {
         padding-left: 0 !important;
     }
 .codeberg-design     .pl-sm-5 {
-        padding-left: 0.5rem !important;
+        padding-left: 5px !important;
     }
 .codeberg-design     .pl-sm-10 {
-        padding-left: 1rem !important;
+        padding-left: 10px !important;
     }
 .codeberg-design     .pl-sm-15 {
-        padding-left: 1.5rem !important;
+        padding-left: 15px !important;
     }
 .codeberg-design     .pl-sm-20 {
-        padding-left: 2rem !important;
+        padding-left: 20px !important;
     }
 .codeberg-design     .pr-sm-0 {
         padding-right: 0 !important;
     }
 .codeberg-design     .pr-sm-5 {
-        padding-right: 0.5rem !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .pr-sm-10 {
-        padding-right: 1rem !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .pr-sm-15 {
-        padding-right: 1.5rem !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .pr-sm-20 {
-        padding-right: 2rem !important;
+        padding-right: 20px !important;
     }
 
     
@@ -10442,16 +10442,16 @@ html,
         margin: 0 !important;
     }
 .codeberg-design     .m-sm-5 {
-        margin: 0.5rem !important;
+        margin: 5px !important;
     }
 .codeberg-design     .m-sm-10 {
-        margin: 1rem !important;
+        margin: 10px !important;
     }
 .codeberg-design     .m-sm-15 {
-        margin: 1.5rem !important;
+        margin: 15px !important;
     }
 .codeberg-design     .m-sm-20 {
-        margin: 2rem !important;
+        margin: 20px !important;
     }
 .codeberg-design     .m-sm-auto {
         margin: auto !important;
@@ -10461,20 +10461,20 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mx-sm-5 {
-        margin-left: 0.5rem !important;
-        margin-right: 0.5rem !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mx-sm-10 {
-        margin-left: 1rem !important;
-        margin-right: 1rem !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mx-sm-15 {
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mx-sm-20 {
-        margin-left: 2rem !important;
-        margin-right: 2rem !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mx-sm-auto {
         margin-left: auto !important;
@@ -10485,20 +10485,20 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .my-sm-5 {
-        margin-top: 0.5rem !important;
-        margin-bottom: 0.5rem !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .my-sm-10 {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .my-sm-15 {
-        margin-top: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .my-sm-20 {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .my-sm-auto {
         margin-top: auto !important;
@@ -10508,16 +10508,16 @@ html,
         margin-top: 0 !important;
     }
 .codeberg-design     .mt-sm-5 {
-        margin-top: 0.5rem !important;
+        margin-top: 5px !important;
     }
 .codeberg-design     .mt-sm-10 {
-        margin-top: 1rem !important;
+        margin-top: 10px !important;
     }
 .codeberg-design     .mt-sm-15 {
-        margin-top: 1.5rem !important;
+        margin-top: 15px !important;
     }
 .codeberg-design     .mt-sm-20 {
-        margin-top: 2rem !important;
+        margin-top: 20px !important;
     }
 .codeberg-design     .mt-sm-auto {
         margin-top: auto !important;
@@ -10526,16 +10526,16 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .mb-sm-5 {
-        margin-bottom: 0.5rem !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .mb-sm-10 {
-        margin-bottom: 1rem !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .mb-sm-15 {
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .mb-sm-20 {
-        margin-bottom: 2rem !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .mb-sm-auto {
         margin-bottom: auto !important;
@@ -10544,16 +10544,16 @@ html,
         margin-left: 0 !important;
     }
 .codeberg-design     .ml-sm-5 {
-        margin-left: 0.5rem !important;
+        margin-left: 5px !important;
     }
 .codeberg-design     .ml-sm-10 {
-        margin-left: 1rem !important;
+        margin-left: 10px !important;
     }
 .codeberg-design     .ml-sm-15 {
-        margin-left: 1.5rem !important;
+        margin-left: 15px !important;
     }
 .codeberg-design     .ml-sm-20 {
-        margin-left: 2rem !important;
+        margin-left: 20px !important;
     }
 .codeberg-design     .ml-sm-auto {
         margin-left: auto !important;
@@ -10562,16 +10562,16 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mr-sm-5 {
-        margin-right: 0.5rem !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mr-sm-10 {
-        margin-right: 1rem !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mr-sm-15 {
-        margin-right: 1.5rem !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mr-sm-20 {
-        margin-right: 2rem !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mr-sm-auto {
         margin-right: auto !important;
@@ -10584,116 +10584,116 @@ html,
         padding: 0 !important;
     }
 .codeberg-design     .p-md-5 {
-        padding: 0.5rem !important;
+        padding: 5px !important;
     }
 .codeberg-design     .p-md-10 {
-        padding: 1rem !important;
+        padding: 10px !important;
     }
 .codeberg-design     .p-md-15 {
-        padding: 1.5rem !important;
+        padding: 15px !important;
     }
 .codeberg-design     .p-md-20 {
-        padding: 2rem !important;
+        padding: 20px !important;
     }
 .codeberg-design     .px-md-0 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 .codeberg-design     .px-md-5 {
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .px-md-10 {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .px-md-15 {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .px-md-20 {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 .codeberg-design     .py-md-0 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 .codeberg-design     .py-md-5 {
-        padding-top: 0.5rem !important;
-        padding-bottom: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .py-md-10 {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .py-md-15 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .py-md-20 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pt-md-0 {
         padding-top: 0 !important;
     }
 .codeberg-design     .pt-md-5 {
-        padding-top: 0.5rem !important;
+        padding-top: 5px !important;
     }
 .codeberg-design     .pt-md-10 {
-        padding-top: 1rem !important;
+        padding-top: 10px !important;
     }
 .codeberg-design     .pt-md-15 {
-        padding-top: 1.5rem !important;
+        padding-top: 15px !important;
     }
 .codeberg-design     .pt-md-20 {
-        padding-top: 2rem !important;
+        padding-top: 20px !important;
     }
 .codeberg-design     .pb-md-0 {
         padding-bottom: 0 !important;
     }
 .codeberg-design     .pb-md-5 {
-        padding-bottom: 0.5rem !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .pb-md-10 {
-        padding-bottom: 1rem !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .pb-md-15 {
-        padding-bottom: 1.5rem !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .pb-md-20 {
-        padding-bottom: 2rem !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pl-md-0 {
         padding-left: 0 !important;
     }
 .codeberg-design     .pl-md-5 {
-        padding-left: 0.5rem !important;
+        padding-left: 5px !important;
     }
 .codeberg-design     .pl-md-10 {
-        padding-left: 1rem !important;
+        padding-left: 10px !important;
     }
 .codeberg-design     .pl-md-15 {
-        padding-left: 1.5rem !important;
+        padding-left: 15px !important;
     }
 .codeberg-design     .pl-md-20 {
-        padding-left: 2rem !important;
+        padding-left: 20px !important;
     }
 .codeberg-design     .pr-md-0 {
         padding-right: 0 !important;
     }
 .codeberg-design     .pr-md-5 {
-        padding-right: 0.5rem !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .pr-md-10 {
-        padding-right: 1rem !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .pr-md-15 {
-        padding-right: 1.5rem !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .pr-md-20 {
-        padding-right: 2rem !important;
+        padding-right: 20px !important;
     }
 
     
@@ -10702,16 +10702,16 @@ html,
         margin: 0 !important;
     }
 .codeberg-design     .m-md-5 {
-        margin: 0.5rem !important;
+        margin: 5px !important;
     }
 .codeberg-design     .m-md-10 {
-        margin: 1rem !important;
+        margin: 10px !important;
     }
 .codeberg-design     .m-md-15 {
-        margin: 1.5rem !important;
+        margin: 15px !important;
     }
 .codeberg-design     .m-md-20 {
-        margin: 2rem !important;
+        margin: 20px !important;
     }
 .codeberg-design     .m-md-auto {
         margin: auto !important;
@@ -10721,20 +10721,20 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mx-md-5 {
-        margin-left: 0.5rem !important;
-        margin-right: 0.5rem !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mx-md-10 {
-        margin-left: 1rem !important;
-        margin-right: 1rem !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mx-md-15 {
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mx-md-20 {
-        margin-left: 2rem !important;
-        margin-right: 2rem !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mx-md-auto {
         margin-left: auto !important;
@@ -10745,20 +10745,20 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .my-md-5 {
-        margin-top: 0.5rem !important;
-        margin-bottom: 0.5rem !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .my-md-10 {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .my-md-15 {
-        margin-top: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .my-md-20 {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .my-md-auto {
         margin-top: auto !important;
@@ -10768,16 +10768,16 @@ html,
         margin-top: 0 !important;
     }
 .codeberg-design     .mt-md-5 {
-        margin-top: 0.5rem !important;
+        margin-top: 5px !important;
     }
 .codeberg-design     .mt-md-10 {
-        margin-top: 1rem !important;
+        margin-top: 10px !important;
     }
 .codeberg-design     .mt-md-15 {
-        margin-top: 1.5rem !important;
+        margin-top: 15px !important;
     }
 .codeberg-design     .mt-md-20 {
-        margin-top: 2rem !important;
+        margin-top: 20px !important;
     }
 .codeberg-design     .mt-md-auto {
         margin-top: auto !important;
@@ -10786,16 +10786,16 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .mb-md-5 {
-        margin-bottom: 0.5rem !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .mb-md-10 {
-        margin-bottom: 1rem !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .mb-md-15 {
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .mb-md-20 {
-        margin-bottom: 2rem !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .mb-md-auto {
         margin-bottom: auto !important;
@@ -10804,16 +10804,16 @@ html,
         margin-left: 0 !important;
     }
 .codeberg-design     .ml-md-5 {
-        margin-left: 0.5rem !important;
+        margin-left: 5px !important;
     }
 .codeberg-design     .ml-md-10 {
-        margin-left: 1rem !important;
+        margin-left: 10px !important;
     }
 .codeberg-design     .ml-md-15 {
-        margin-left: 1.5rem !important;
+        margin-left: 15px !important;
     }
 .codeberg-design     .ml-md-20 {
-        margin-left: 2rem !important;
+        margin-left: 20px !important;
     }
 .codeberg-design     .ml-md-auto {
         margin-left: auto !important;
@@ -10822,16 +10822,16 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mr-md-5 {
-        margin-right: 0.5rem !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mr-md-10 {
-        margin-right: 1rem !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mr-md-15 {
-        margin-right: 1.5rem !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mr-md-20 {
-        margin-right: 2rem !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mr-md-auto {
         margin-right: auto !important;
@@ -10844,116 +10844,116 @@ html,
         padding: 0 !important;
     }
 .codeberg-design     .p-lg-5 {
-        padding: 0.5rem !important;
+        padding: 5px !important;
     }
 .codeberg-design     .p-lg-10 {
-        padding: 1rem !important;
+        padding: 10px !important;
     }
 .codeberg-design     .p-lg-15 {
-        padding: 1.5rem !important;
+        padding: 15px !important;
     }
 .codeberg-design     .p-lg-20 {
-        padding: 2rem !important;
+        padding: 20px !important;
     }
 .codeberg-design     .px-lg-0 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 .codeberg-design     .px-lg-5 {
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .px-lg-10 {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .px-lg-15 {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .px-lg-20 {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 .codeberg-design     .py-lg-0 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 .codeberg-design     .py-lg-5 {
-        padding-top: 0.5rem !important;
-        padding-bottom: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .py-lg-10 {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .py-lg-15 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .py-lg-20 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pt-lg-0 {
         padding-top: 0 !important;
     }
 .codeberg-design     .pt-lg-5 {
-        padding-top: 0.5rem !important;
+        padding-top: 5px !important;
     }
 .codeberg-design     .pt-lg-10 {
-        padding-top: 1rem !important;
+        padding-top: 10px !important;
     }
 .codeberg-design     .pt-lg-15 {
-        padding-top: 1.5rem !important;
+        padding-top: 15px !important;
     }
 .codeberg-design     .pt-lg-20 {
-        padding-top: 2rem !important;
+        padding-top: 20px !important;
     }
 .codeberg-design     .pb-lg-0 {
         padding-bottom: 0 !important;
     }
 .codeberg-design     .pb-lg-5 {
-        padding-bottom: 0.5rem !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .pb-lg-10 {
-        padding-bottom: 1rem !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .pb-lg-15 {
-        padding-bottom: 1.5rem !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .pb-lg-20 {
-        padding-bottom: 2rem !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pl-lg-0 {
         padding-left: 0 !important;
     }
 .codeberg-design     .pl-lg-5 {
-        padding-left: 0.5rem !important;
+        padding-left: 5px !important;
     }
 .codeberg-design     .pl-lg-10 {
-        padding-left: 1rem !important;
+        padding-left: 10px !important;
     }
 .codeberg-design     .pl-lg-15 {
-        padding-left: 1.5rem !important;
+        padding-left: 15px !important;
     }
 .codeberg-design     .pl-lg-20 {
-        padding-left: 2rem !important;
+        padding-left: 20px !important;
     }
 .codeberg-design     .pr-lg-0 {
         padding-right: 0 !important;
     }
 .codeberg-design     .pr-lg-5 {
-        padding-right: 0.5rem !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .pr-lg-10 {
-        padding-right: 1rem !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .pr-lg-15 {
-        padding-right: 1.5rem !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .pr-lg-20 {
-        padding-right: 2rem !important;
+        padding-right: 20px !important;
     }
 
     
@@ -10962,16 +10962,16 @@ html,
         margin: 0 !important;
     }
 .codeberg-design     .m-lg-5 {
-        margin: 0.5rem !important;
+        margin: 5px !important;
     }
 .codeberg-design     .m-lg-10 {
-        margin: 1rem !important;
+        margin: 10px !important;
     }
 .codeberg-design     .m-lg-15 {
-        margin: 1.5rem !important;
+        margin: 15px !important;
     }
 .codeberg-design     .m-lg-20 {
-        margin: 2rem !important;
+        margin: 20px !important;
     }
 .codeberg-design     .m-lg-auto {
         margin: auto !important;
@@ -10981,20 +10981,20 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mx-lg-5 {
-        margin-left: 0.5rem !important;
-        margin-right: 0.5rem !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mx-lg-10 {
-        margin-left: 1rem !important;
-        margin-right: 1rem !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mx-lg-15 {
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mx-lg-20 {
-        margin-left: 2rem !important;
-        margin-right: 2rem !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mx-lg-auto {
         margin-left: auto !important;
@@ -11005,20 +11005,20 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .my-lg-5 {
-        margin-top: 0.5rem !important;
-        margin-bottom: 0.5rem !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .my-lg-10 {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .my-lg-15 {
-        margin-top: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .my-lg-20 {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .my-lg-auto {
         margin-top: auto !important;
@@ -11028,16 +11028,16 @@ html,
         margin-top: 0 !important;
     }
 .codeberg-design     .mt-lg-5 {
-        margin-top: 0.5rem !important;
+        margin-top: 5px !important;
     }
 .codeberg-design     .mt-lg-10 {
-        margin-top: 1rem !important;
+        margin-top: 10px !important;
     }
 .codeberg-design     .mt-lg-15 {
-        margin-top: 1.5rem !important;
+        margin-top: 15px !important;
     }
 .codeberg-design     .mt-lg-20 {
-        margin-top: 2rem !important;
+        margin-top: 20px !important;
     }
 .codeberg-design     .mt-lg-auto {
         margin-top: auto !important;
@@ -11046,16 +11046,16 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .mb-lg-5 {
-        margin-bottom: 0.5rem !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .mb-lg-10 {
-        margin-bottom: 1rem !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .mb-lg-15 {
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .mb-lg-20 {
-        margin-bottom: 2rem !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .mb-lg-auto {
         margin-bottom: auto !important;
@@ -11064,16 +11064,16 @@ html,
         margin-left: 0 !important;
     }
 .codeberg-design     .ml-lg-5 {
-        margin-left: 0.5rem !important;
+        margin-left: 5px !important;
     }
 .codeberg-design     .ml-lg-10 {
-        margin-left: 1rem !important;
+        margin-left: 10px !important;
     }
 .codeberg-design     .ml-lg-15 {
-        margin-left: 1.5rem !important;
+        margin-left: 15px !important;
     }
 .codeberg-design     .ml-lg-20 {
-        margin-left: 2rem !important;
+        margin-left: 20px !important;
     }
 .codeberg-design     .ml-lg-auto {
         margin-left: auto !important;
@@ -11082,16 +11082,16 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mr-lg-5 {
-        margin-right: 0.5rem !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mr-lg-10 {
-        margin-right: 1rem !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mr-lg-15 {
-        margin-right: 1.5rem !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mr-lg-20 {
-        margin-right: 2rem !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mr-lg-auto {
         margin-right: auto !important;
@@ -11104,116 +11104,116 @@ html,
         padding: 0 !important;
     }
 .codeberg-design     .p-xl-5 {
-        padding: 0.5rem !important;
+        padding: 5px !important;
     }
 .codeberg-design     .p-xl-10 {
-        padding: 1rem !important;
+        padding: 10px !important;
     }
 .codeberg-design     .p-xl-15 {
-        padding: 1.5rem !important;
+        padding: 15px !important;
     }
 .codeberg-design     .p-xl-20 {
-        padding: 2rem !important;
+        padding: 20px !important;
     }
 .codeberg-design     .px-xl-0 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 .codeberg-design     .px-xl-5 {
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .px-xl-10 {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .px-xl-15 {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .px-xl-20 {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 .codeberg-design     .py-xl-0 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 .codeberg-design     .py-xl-5 {
-        padding-top: 0.5rem !important;
-        padding-bottom: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .py-xl-10 {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .py-xl-15 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .py-xl-20 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pt-xl-0 {
         padding-top: 0 !important;
     }
 .codeberg-design     .pt-xl-5 {
-        padding-top: 0.5rem !important;
+        padding-top: 5px !important;
     }
 .codeberg-design     .pt-xl-10 {
-        padding-top: 1rem !important;
+        padding-top: 10px !important;
     }
 .codeberg-design     .pt-xl-15 {
-        padding-top: 1.5rem !important;
+        padding-top: 15px !important;
     }
 .codeberg-design     .pt-xl-20 {
-        padding-top: 2rem !important;
+        padding-top: 20px !important;
     }
 .codeberg-design     .pb-xl-0 {
         padding-bottom: 0 !important;
     }
 .codeberg-design     .pb-xl-5 {
-        padding-bottom: 0.5rem !important;
+        padding-bottom: 5px !important;
     }
 .codeberg-design     .pb-xl-10 {
-        padding-bottom: 1rem !important;
+        padding-bottom: 10px !important;
     }
 .codeberg-design     .pb-xl-15 {
-        padding-bottom: 1.5rem !important;
+        padding-bottom: 15px !important;
     }
 .codeberg-design     .pb-xl-20 {
-        padding-bottom: 2rem !important;
+        padding-bottom: 20px !important;
     }
 .codeberg-design     .pl-xl-0 {
         padding-left: 0 !important;
     }
 .codeberg-design     .pl-xl-5 {
-        padding-left: 0.5rem !important;
+        padding-left: 5px !important;
     }
 .codeberg-design     .pl-xl-10 {
-        padding-left: 1rem !important;
+        padding-left: 10px !important;
     }
 .codeberg-design     .pl-xl-15 {
-        padding-left: 1.5rem !important;
+        padding-left: 15px !important;
     }
 .codeberg-design     .pl-xl-20 {
-        padding-left: 2rem !important;
+        padding-left: 20px !important;
     }
 .codeberg-design     .pr-xl-0 {
         padding-right: 0 !important;
     }
 .codeberg-design     .pr-xl-5 {
-        padding-right: 0.5rem !important;
+        padding-right: 5px !important;
     }
 .codeberg-design     .pr-xl-10 {
-        padding-right: 1rem !important;
+        padding-right: 10px !important;
     }
 .codeberg-design     .pr-xl-15 {
-        padding-right: 1.5rem !important;
+        padding-right: 15px !important;
     }
 .codeberg-design     .pr-xl-20 {
-        padding-right: 2rem !important;
+        padding-right: 20px !important;
     }
 
     
@@ -11222,16 +11222,16 @@ html,
         margin: 0 !important;
     }
 .codeberg-design     .m-xl-5 {
-        margin: 0.5rem !important;
+        margin: 5px !important;
     }
 .codeberg-design     .m-xl-10 {
-        margin: 1rem !important;
+        margin: 10px !important;
     }
 .codeberg-design     .m-xl-15 {
-        margin: 1.5rem !important;
+        margin: 15px !important;
     }
 .codeberg-design     .m-xl-20 {
-        margin: 2rem !important;
+        margin: 20px !important;
     }
 .codeberg-design     .m-xl-auto {
         margin: auto !important;
@@ -11241,20 +11241,20 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mx-xl-5 {
-        margin-left: 0.5rem !important;
-        margin-right: 0.5rem !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mx-xl-10 {
-        margin-left: 1rem !important;
-        margin-right: 1rem !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mx-xl-15 {
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mx-xl-20 {
-        margin-left: 2rem !important;
-        margin-right: 2rem !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mx-xl-auto {
         margin-left: auto !important;
@@ -11265,20 +11265,20 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .my-xl-5 {
-        margin-top: 0.5rem !important;
-        margin-bottom: 0.5rem !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .my-xl-10 {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .my-xl-15 {
-        margin-top: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .my-xl-20 {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .my-xl-auto {
         margin-top: auto !important;
@@ -11288,16 +11288,16 @@ html,
         margin-top: 0 !important;
     }
 .codeberg-design     .mt-xl-5 {
-        margin-top: 0.5rem !important;
+        margin-top: 5px !important;
     }
 .codeberg-design     .mt-xl-10 {
-        margin-top: 1rem !important;
+        margin-top: 10px !important;
     }
 .codeberg-design     .mt-xl-15 {
-        margin-top: 1.5rem !important;
+        margin-top: 15px !important;
     }
 .codeberg-design     .mt-xl-20 {
-        margin-top: 2rem !important;
+        margin-top: 20px !important;
     }
 .codeberg-design     .mt-xl-auto {
         margin-top: auto !important;
@@ -11306,16 +11306,16 @@ html,
         margin-bottom: 0 !important;
     }
 .codeberg-design     .mb-xl-5 {
-        margin-bottom: 0.5rem !important;
+        margin-bottom: 5px !important;
     }
 .codeberg-design     .mb-xl-10 {
-        margin-bottom: 1rem !important;
+        margin-bottom: 10px !important;
     }
 .codeberg-design     .mb-xl-15 {
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 15px !important;
     }
 .codeberg-design     .mb-xl-20 {
-        margin-bottom: 2rem !important;
+        margin-bottom: 20px !important;
     }
 .codeberg-design     .mb-xl-auto {
         margin-bottom: auto !important;
@@ -11324,16 +11324,16 @@ html,
         margin-left: 0 !important;
     }
 .codeberg-design     .ml-xl-5 {
-        margin-left: 0.5rem !important;
+        margin-left: 5px !important;
     }
 .codeberg-design     .ml-xl-10 {
-        margin-left: 1rem !important;
+        margin-left: 10px !important;
     }
 .codeberg-design     .ml-xl-15 {
-        margin-left: 1.5rem !important;
+        margin-left: 15px !important;
     }
 .codeberg-design     .ml-xl-20 {
-        margin-left: 2rem !important;
+        margin-left: 20px !important;
     }
 .codeberg-design     .ml-xl-auto {
         margin-left: auto !important;
@@ -11342,16 +11342,16 @@ html,
         margin-right: 0 !important;
     }
 .codeberg-design     .mr-xl-5 {
-        margin-right: 0.5rem !important;
+        margin-right: 5px !important;
     }
 .codeberg-design     .mr-xl-10 {
-        margin-right: 1rem !important;
+        margin-right: 10px !important;
     }
 .codeberg-design     .mr-xl-15 {
-        margin-right: 1.5rem !important;
+        margin-right: 15px !important;
     }
 .codeberg-design     .mr-xl-20 {
-        margin-right: 2rem !important;
+        margin-right: 20px !important;
     }
 .codeberg-design     .mr-xl-auto {
         margin-right: auto !important;
@@ -11604,43 +11604,43 @@ html,
 
 
 .codeberg-design .w-25 {
-    width: 2.5rem !important;
+    width: 25px !important;
 }
 .codeberg-design .w-50 {
-    width: 5rem !important;
+    width: 50px !important;
 }
 .codeberg-design .w-100 {
-    width: 10rem !important;
+    width: 100px !important;
 }
 .codeberg-design .w-150 {
-    width: 15rem !important;
+    width: 150px !important;
 }
 .codeberg-design .w-200 {
-    width: 20rem !important;
+    width: 200px !important;
 }
 .codeberg-design .w-250 {
-    width: 25rem !important;
+    width: 250px !important;
 }
 .codeberg-design .w-300 {
-    width: 30rem !important;
+    width: 300px !important;
 }
 .codeberg-design .w-350 {
-    width: 35rem !important;
+    width: 350px !important;
 }
 .codeberg-design .w-400 {
-    width: 40rem !important;
+    width: 400px !important;
 }
 .codeberg-design .w-450 {
-    width: 45rem !important;
+    width: 450px !important;
 }
 .codeberg-design .w-500 {
-    width: 50rem !important;
+    width: 500px !important;
 }
 .codeberg-design .w-550 {
-    width: 55rem !important;
+    width: 550px !important;
 }
 .codeberg-design .w-600 {
-    width: 60rem !important;
+    width: 600px !important;
 }
 .codeberg-design .w-auto {
     width: auto !important;
@@ -11662,43 +11662,43 @@ html,
 }
 @media (min-width: 577px) {
 .codeberg-design     .w-sm-25 {
-        width: 2.5rem !important;
+        width: 25px !important;
     }
 .codeberg-design     .w-sm-50 {
-        width: 5rem !important;
+        width: 50px !important;
     }
 .codeberg-design     .w-sm-100 {
-        width: 10rem !important;
+        width: 100px !important;
     }
 .codeberg-design     .w-sm-150 {
-        width: 15rem !important;
+        width: 150px !important;
     }
 .codeberg-design     .w-sm-200 {
-        width: 20rem !important;
+        width: 200px !important;
     }
 .codeberg-design     .w-sm-250 {
-        width: 25rem !important;
+        width: 250px !important;
     }
 .codeberg-design     .w-sm-300 {
-        width: 30rem !important;
+        width: 300px !important;
     }
 .codeberg-design     .w-sm-350 {
-        width: 35rem !important;
+        width: 350px !important;
     }
 .codeberg-design     .w-sm-400 {
-        width: 40rem !important;
+        width: 400px !important;
     }
 .codeberg-design     .w-sm-450 {
-        width: 45rem !important;
+        width: 450px !important;
     }
 .codeberg-design     .w-sm-500 {
-        width: 50rem !important;
+        width: 500px !important;
     }
 .codeberg-design     .w-sm-550 {
-        width: 55rem !important;
+        width: 550px !important;
     }
 .codeberg-design     .w-sm-600 {
-        width: 60rem !important;
+        width: 600px !important;
     }
 .codeberg-design     .w-sm-auto {
         width: auto !important;
@@ -11721,43 +11721,43 @@ html,
 }
 @media (min-width: 769px) {
 .codeberg-design     .w-md-25 {
-        width: 2.5rem !important;
+        width: 25px !important;
     }
 .codeberg-design     .w-md-50 {
-        width: 5rem !important;
+        width: 50px !important;
     }
 .codeberg-design     .w-md-100 {
-        width: 10rem !important;
+        width: 100px !important;
     }
 .codeberg-design     .w-md-150 {
-        width: 15rem !important;
+        width: 150px !important;
     }
 .codeberg-design     .w-md-200 {
-        width: 20rem !important;
+        width: 200px !important;
     }
 .codeberg-design     .w-md-250 {
-        width: 25rem !important;
+        width: 250px !important;
     }
 .codeberg-design     .w-md-300 {
-        width: 30rem !important;
+        width: 300px !important;
     }
 .codeberg-design     .w-md-350 {
-        width: 35rem !important;
+        width: 350px !important;
     }
 .codeberg-design     .w-md-400 {
-        width: 40rem !important;
+        width: 400px !important;
     }
 .codeberg-design     .w-md-450 {
-        width: 45rem !important;
+        width: 450px !important;
     }
 .codeberg-design     .w-md-500 {
-        width: 50rem !important;
+        width: 500px !important;
     }
 .codeberg-design     .w-md-550 {
-        width: 55rem !important;
+        width: 550px !important;
     }
 .codeberg-design     .w-md-600 {
-        width: 60rem !important;
+        width: 600px !important;
     }
 .codeberg-design     .w-md-auto {
         width: auto !important;
@@ -11780,43 +11780,43 @@ html,
 }
 @media (min-width: 993px) {
 .codeberg-design     .w-lg-25 {
-        width: 2.5rem !important;
+        width: 25px !important;
     }
 .codeberg-design     .w-lg-50 {
-        width: 5rem !important;
+        width: 50px !important;
     }
 .codeberg-design     .w-lg-100 {
-        width: 10rem !important;
+        width: 100px !important;
     }
 .codeberg-design     .w-lg-150 {
-        width: 15rem !important;
+        width: 150px !important;
     }
 .codeberg-design     .w-lg-200 {
-        width: 20rem !important;
+        width: 200px !important;
     }
 .codeberg-design     .w-lg-250 {
-        width: 25rem !important;
+        width: 250px !important;
     }
 .codeberg-design     .w-lg-300 {
-        width: 30rem !important;
+        width: 300px !important;
     }
 .codeberg-design     .w-lg-350 {
-        width: 35rem !important;
+        width: 350px !important;
     }
 .codeberg-design     .w-lg-400 {
-        width: 40rem !important;
+        width: 400px !important;
     }
 .codeberg-design     .w-lg-450 {
-        width: 45rem !important;
+        width: 450px !important;
     }
 .codeberg-design     .w-lg-500 {
-        width: 50rem !important;
+        width: 500px !important;
     }
 .codeberg-design     .w-lg-550 {
-        width: 55rem !important;
+        width: 550px !important;
     }
 .codeberg-design     .w-lg-600 {
-        width: 60rem !important;
+        width: 600px !important;
     }
 .codeberg-design     .w-lg-auto {
         width: auto !important;
@@ -11839,43 +11839,43 @@ html,
 }
 @media (min-width: 1201px) {
 .codeberg-design     .w-xl-25 {
-        width: 2.5rem !important;
+        width: 25px !important;
     }
 .codeberg-design     .w-xl-50 {
-        width: 5rem !important;
+        width: 50px !important;
     }
 .codeberg-design     .w-xl-100 {
-        width: 10rem !important;
+        width: 100px !important;
     }
 .codeberg-design     .w-xl-150 {
-        width: 15rem !important;
+        width: 150px !important;
     }
 .codeberg-design     .w-xl-200 {
-        width: 20rem !important;
+        width: 200px !important;
     }
 .codeberg-design     .w-xl-250 {
-        width: 25rem !important;
+        width: 250px !important;
     }
 .codeberg-design     .w-xl-300 {
-        width: 30rem !important;
+        width: 300px !important;
     }
 .codeberg-design     .w-xl-350 {
-        width: 35rem !important;
+        width: 350px !important;
     }
 .codeberg-design     .w-xl-400 {
-        width: 40rem !important;
+        width: 400px !important;
     }
 .codeberg-design     .w-xl-450 {
-        width: 45rem !important;
+        width: 450px !important;
     }
 .codeberg-design     .w-xl-500 {
-        width: 50rem !important;
+        width: 500px !important;
     }
 .codeberg-design     .w-xl-550 {
-        width: 55rem !important;
+        width: 550px !important;
     }
 .codeberg-design     .w-xl-600 {
-        width: 60rem !important;
+        width: 600px !important;
     }
 .codeberg-design     .w-xl-auto {
         width: auto !important;
@@ -11900,43 +11900,43 @@ html,
 
 
 .codeberg-design .h-25 {
-    height: 2.5rem !important;
+    height: 25px !important;
 }
 .codeberg-design .h-50 {
-    height: 5rem !important;
+    height: 50px !important;
 }
 .codeberg-design .h-100 {
-    height: 10rem !important;
+    height: 100px !important;
 }
 .codeberg-design .h-150 {
-    height: 15rem !important;
+    height: 150px !important;
 }
 .codeberg-design .h-200 {
-    height: 20rem !important;
+    height: 200px !important;
 }
 .codeberg-design .h-250 {
-    height: 25rem !important;
+    height: 250px !important;
 }
 .codeberg-design .h-300 {
-    height: 30rem !important;
+    height: 300px !important;
 }
 .codeberg-design .h-350 {
-    height: 35rem !important;
+    height: 350px !important;
 }
 .codeberg-design .h-400 {
-    height: 40rem !important;
+    height: 400px !important;
 }
 .codeberg-design .h-450 {
-    height: 45rem !important;
+    height: 450px !important;
 }
 .codeberg-design .h-500 {
-    height: 50rem !important;
+    height: 500px !important;
 }
 .codeberg-design .h-550 {
-    height: 55rem !important;
+    height: 550px !important;
 }
 .codeberg-design .h-600 {
-    height: 60rem !important;
+    height: 600px !important;
 }
 .codeberg-design .h-auto {
     height: auto !important;
@@ -11958,43 +11958,43 @@ html,
 }
 @media (min-width: 577px) {
 .codeberg-design     .h-sm-25 {
-        height: 2.5rem !important;
+        height: 25px !important;
     }
 .codeberg-design     .h-sm-50 {
-        height: 5rem !important;
+        height: 50px !important;
     }
 .codeberg-design     .h-sm-100 {
-        height: 10rem !important;
+        height: 100px !important;
     }
 .codeberg-design     .h-sm-150 {
-        height: 15rem !important;
+        height: 150px !important;
     }
 .codeberg-design     .h-sm-200 {
-        height: 20rem !important;
+        height: 200px !important;
     }
 .codeberg-design     .h-sm-250 {
-        height: 25rem !important;
+        height: 250px !important;
     }
 .codeberg-design     .h-sm-300 {
-        height: 30rem !important;
+        height: 300px !important;
     }
 .codeberg-design     .h-sm-350 {
-        height: 35rem !important;
+        height: 350px !important;
     }
 .codeberg-design     .h-sm-400 {
-        height: 40rem !important;
+        height: 400px !important;
     }
 .codeberg-design     .h-sm-450 {
-        height: 45rem !important;
+        height: 450px !important;
     }
 .codeberg-design     .h-sm-500 {
-        height: 50rem !important;
+        height: 500px !important;
     }
 .codeberg-design     .h-sm-550 {
-        height: 55rem !important;
+        height: 550px !important;
     }
 .codeberg-design     .h-sm-600 {
-        height: 60rem !important;
+        height: 600px !important;
     }
 .codeberg-design     .h-sm-auto {
         height: auto !important;
@@ -12017,43 +12017,43 @@ html,
 }
 @media (min-width: 769px) {
 .codeberg-design     .h-md-25 {
-        height: 2.5rem !important;
+        height: 25px !important;
     }
 .codeberg-design     .h-md-50 {
-        height: 5rem !important;
+        height: 50px !important;
     }
 .codeberg-design     .h-md-100 {
-        height: 10rem !important;
+        height: 100px !important;
     }
 .codeberg-design     .h-md-150 {
-        height: 15rem !important;
+        height: 150px !important;
     }
 .codeberg-design     .h-md-200 {
-        height: 20rem !important;
+        height: 200px !important;
     }
 .codeberg-design     .h-md-250 {
-        height: 25rem !important;
+        height: 250px !important;
     }
 .codeberg-design     .h-md-300 {
-        height: 30rem !important;
+        height: 300px !important;
     }
 .codeberg-design     .h-md-350 {
-        height: 35rem !important;
+        height: 350px !important;
     }
 .codeberg-design     .h-md-400 {
-        height: 40rem !important;
+        height: 400px !important;
     }
 .codeberg-design     .h-md-450 {
-        height: 45rem !important;
+        height: 450px !important;
     }
 .codeberg-design     .h-md-500 {
-        height: 50rem !important;
+        height: 500px !important;
     }
 .codeberg-design     .h-md-550 {
-        height: 55rem !important;
+        height: 550px !important;
     }
 .codeberg-design     .h-md-600 {
-        height: 60rem !important;
+        height: 600px !important;
     }
 .codeberg-design     .h-md-auto {
         height: auto !important;
@@ -12076,43 +12076,43 @@ html,
 }
 @media (min-width: 993px) {
 .codeberg-design     .h-lg-25 {
-        height: 2.5rem !important;
+        height: 25px !important;
     }
 .codeberg-design     .h-lg-50 {
-        height: 5rem !important;
+        height: 50px !important;
     }
 .codeberg-design     .h-lg-100 {
-        height: 10rem !important;
+        height: 100px !important;
     }
 .codeberg-design     .h-lg-150 {
-        height: 15rem !important;
+        height: 150px !important;
     }
 .codeberg-design     .h-lg-200 {
-        height: 20rem !important;
+        height: 200px !important;
     }
 .codeberg-design     .h-lg-250 {
-        height: 25rem !important;
+        height: 250px !important;
     }
 .codeberg-design     .h-lg-300 {
-        height: 30rem !important;
+        height: 300px !important;
     }
 .codeberg-design     .h-lg-350 {
-        height: 35rem !important;
+        height: 350px !important;
     }
 .codeberg-design     .h-lg-400 {
-        height: 40rem !important;
+        height: 400px !important;
     }
 .codeberg-design     .h-lg-450 {
-        height: 45rem !important;
+        height: 450px !important;
     }
 .codeberg-design     .h-lg-500 {
-        height: 50rem !important;
+        height: 500px !important;
     }
 .codeberg-design     .h-lg-550 {
-        height: 55rem !important;
+        height: 550px !important;
     }
 .codeberg-design     .h-lg-600 {
-        height: 60rem !important;
+        height: 600px !important;
     }
 .codeberg-design     .h-lg-auto {
         height: auto !important;
@@ -12135,43 +12135,43 @@ html,
 }
 @media (min-width: 1201px) {
 .codeberg-design     .h-xl-25 {
-        height: 2.5rem !important;
+        height: 25px !important;
     }
 .codeberg-design     .h-xl-50 {
-        height: 5rem !important;
+        height: 50px !important;
     }
 .codeberg-design     .h-xl-100 {
-        height: 10rem !important;
+        height: 100px !important;
     }
 .codeberg-design     .h-xl-150 {
-        height: 15rem !important;
+        height: 150px !important;
     }
 .codeberg-design     .h-xl-200 {
-        height: 20rem !important;
+        height: 200px !important;
     }
 .codeberg-design     .h-xl-250 {
-        height: 25rem !important;
+        height: 250px !important;
     }
 .codeberg-design     .h-xl-300 {
-        height: 30rem !important;
+        height: 300px !important;
     }
 .codeberg-design     .h-xl-350 {
-        height: 35rem !important;
+        height: 350px !important;
     }
 .codeberg-design     .h-xl-400 {
-        height: 40rem !important;
+        height: 400px !important;
     }
 .codeberg-design     .h-xl-450 {
-        height: 45rem !important;
+        height: 450px !important;
     }
 .codeberg-design     .h-xl-500 {
-        height: 50rem !important;
+        height: 500px !important;
     }
 .codeberg-design     .h-xl-550 {
-        height: 55rem !important;
+        height: 550px !important;
     }
 .codeberg-design     .h-xl-600 {
-        height: 60rem !important;
+        height: 600px !important;
     }
 .codeberg-design     .h-xl-auto {
         height: auto !important;
@@ -13432,25 +13432,25 @@ html,
 
 
 .codeberg-design .font-size-12 {
-    font-size: 1.2rem !important;
+    font-size: 12px !important;
 }
 .codeberg-design .font-size-14 {
-    font-size: 1.4rem !important;
+    font-size: 14px !important;
 }
 .codeberg-design .font-size-16 {
-    font-size: 1.6rem !important;
+    font-size: 16px !important;
 }
 .codeberg-design .font-size-18 {
-    font-size: 1.8rem !important;
+    font-size: 18px !important;
 }
 .codeberg-design .font-size-20 {
-    font-size: 2rem !important;
+    font-size: 20px !important;
 }
 .codeberg-design .font-size-22 {
-    font-size: 2.2rem !important;
+    font-size: 22px !important;
 }
 .codeberg-design .font-size-24 {
-    font-size: 2.4rem !important;
+    font-size: 24px !important;
 }
 .codeberg-design .font-weight-light {
     font-weight: 300 !important;
