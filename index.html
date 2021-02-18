@@ -7,12 +7,15 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <meta name="viewport" content="width=device-width" />
 
+  <!-- Don't indes this example page -->
+  <meta name="robots" content="noindex,nofollow">
+
   <!-- Favicon and title -->
   <link rel="icon" href="favicon.ico">
-  <title>Starter template - Halfmoon</title>
+  <title>Codeberg Design Example</title>
 
   <!-- Codeberg Design CSS -->
-  <link href="codeberg-design.css" rel="stylesheet" />
+  <link href="./design-kit/codeberg-design.css" rel="stylesheet" />
   <link href="https://fonts.codeberg.org/dist/inter/Inter%20Web/inter.css" rel="stylesheet" />
   <link href="https://fonts.codeberg.org/dist/fontawesome5/css/all.min.css" rel="stylesheet" />
 </head>
@@ -39,7 +42,7 @@
       </div>
       <!-- Navbar brand -->
       <a href="#" class="navbar-brand">
-        <img src="https://design.codeberg.org/logo/favicon_inverted.svg" alt="Codeberg Logo">
+        <img src="./logo-kit/icon_inverted.svg" alt="Codeberg Logo">
         Codeberg
       </a>
       <!-- Navbar text -->
@@ -96,7 +99,7 @@
       <div class="sidebar-menu">
         <!-- Sidebar brand -->
         <a href="#" class="sidebar-brand">
-          <img src="https://design.codeberg.org/logo/favicon.svg" alt="Codeberg Logo">
+          <img src="./logo-kit/icon.svg" alt="Codeberg Logo">
           Codeberg
         </a>
         <!-- Sidebar content with the search box -->
@@ -126,6 +129,32 @@
     <div class="content-wrapper">
       <!-- Container-fluid -->
       <div class="container-fluid">
+        <div class="content">
+          <div class="alert alert-secondary" role="alert">
+            <h4 class="alert-heading">Welcome to the Codeberg Design example!</h4>
+            <p>You can find all required information to use this design in the <a href="https://codeberg.org/Codeberg/Design/wiki/" class="alert-link">Codeberg Design Wiki</a>.<br>
+            This page is basically the sample page for Halfmoon CSS with the Codeberg stylesheet.</p>
+            <p><a href="https://design.codeberg.org" class="alert-link">design.codeberg.org</a> acts as a CDN for design resources, and contains the following embeddable resources:</p>
+            <ul style="list-style-type: disc; font-size: 0.85em;">
+              <li class="mb-5"><a href="./design-kit/codeberg-design.css" class="alert-link"><code>/design-kit/codeberg-design.css</code></a></li>
+              <li class="mb-5"><a href="./design-kit/halfmoon.min.js" class="alert-link"><code>/design-kit/halfmoon.min.js</code></a></li>
+              <li class="mb-5"><a href="./design-kit/halfmoon.min.css" class="alert-link"><code>/design-kit/halfmoon.min.css</code></a> (scoped version of Halfmoon CSS, automatically imported by codeberg-design.css)</li>
+              <li class="mb-5"><a href="./logo-kit/icon.svg" class="alert-link"><code>/logo-kit/icon.svg</code></a> (only the logo graphic without text)</li>
+              <li class="mb-5"><a href="./logo-kit/icon.png" class="alert-link"><code>/logo-kit/icon.png</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/icon_inverted.svg" class="alert-link"><code>/logo-kit/icon_inverted.svg</code></a> (white on dark background)</li>
+              <li class="mb-5"><a href="./logo-kit/icon_inverted.png" class="alert-link"><code>/logo-kit/icon_inverted.png</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/stacked.svg" class="alert-link"><code>/logo-kit/stacked.svg</code></a> (logo with text below)</li>
+              <li class="mb-5"><a href="./logo-kit/stacked.png" class="alert-link"><code>/logo-kit/stacked.png</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/stacked_inverted.svg" class="alert-link"><code>/logo-kit/stacked_inverted.svg</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/stacked_inverted.png" class="alert-link"><code>/logo-kit/stacked_inverted.png</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/horizontal.svg" class="alert-link"><code>/logo-kit/horizontal.svg</code></a> (logo with text besides)</li>
+              <li class="mb-5"><a href="./logo-kit/horizontal.png" class="alert-link"><code>/logo-kit/horizontal.png</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/horizontal_inverted.svg" class="alert-link"><code>/logo-kit/horizontal_inverted.svg</code></a></li>
+              <li class="mb-5"><a href="./logo-kit/horizontal_inverted.png" class="alert-link"><code>/logo-kit/horizontal_inverted.png</code></a></li>
+            </ul>
+            <p>A CDN for fonts hosted on Codeberg can be found at <a href="https://fonts.codeberg.org" class="alert-link">fonts.codeberg.org</a>.</p>
+          </div>
+        </div>
         <!-- First comes a content container -->
         <div class="content">
           <h1 class="content-title font-size-22"> <!-- font-size-22 = font-size: 2.2rem (22px) -->
@@ -174,6 +203,6 @@
   <!-- Page wrapper end -->
 
   <!-- Halfmoon JS -->
-  <script src="halfmoon.min.js"></script>
+  <script src="./design-kit/halfmoon.min.js"></script>
 </body>
 </html>

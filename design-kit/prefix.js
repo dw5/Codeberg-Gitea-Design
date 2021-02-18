@@ -1,17 +1,19 @@
 const fs = require("fs");
 const path = require("path");
 const scope = require("scope-css");
+const csso = require("csso");
 
 let halfmoon = fs.readFileSync(path.join(__dirname, "node_modules/halfmoon/css/halfmoon-variables.css")).toString();
 
 // Keep the halfmoon comment.
 let halfmoonComment = "";
 if (halfmoon.substr(0, 2) === "/*") {
-	halfmoonComment = halfmoon.substr(0, halfmoon.indexOf("*/") + 2);
+	halfmoonComment = halfmoon.substr(0, halfmoon.indexOf("The above notice must be included in its entirety when this file is used.")) +
+	  "Modified by Codeberg for scoped usage with the .codeberg-design class.\n*/\n";
 }
 
 // Add .codeberg-design scope & codeberg-design- keyframes prefix.
-halfmoon = halfmoonComment + scope(
+halfmoon = scope(
 	halfmoon,
 	".codeberg-design",
 	{
@@ -30,5 +32,8 @@ halfmoon = halfmoon.replace(/\.codeberg-design(\s*{[\s\n]*position:\s*absolute;)
 const formatPx = n => n.toFixed(3).replace(/(\.\d*[1-9]\d*)0+$|\.0+$/, "$1") + "px";
 halfmoon = halfmoon.replace(/\b(\d*\.?\d+)rem\b/g, (match, value) => formatPx(value * 0.625 * 16));
 
-fs.writeFileSync("halfmoon.css", halfmoon);
+// Minify CSS & add back halfmoon comment.
+halfmoon = halfmoonComment + csso.minify(halfmoon).css;
+
+fs.writeFileSync("halfmoon.min.css", halfmoon);
 fs.writeFileSync("halfmoon.min.js", fs.readFileSync(path.join(__dirname, "node_modules/halfmoon/js/halfmoon.min.js")));

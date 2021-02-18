@@ -8,12 +8,12 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
 
 ```html
 <!-- In your <head> tag: -->
-<link rel="stylesheet" href="https://design.codeberg.org/codeberg-design.css" />
+<link rel="stylesheet" href="https://design.codeberg.org/design-kit/codeberg-design.css" />
 <link href="https://fonts.codeberg.org/dist/inter/Inter%20Web/inter.css" rel="stylesheet" />
 <link href="https://fonts.codeberg.org/dist/fontawesome5/css/all.min.css" rel="stylesheet" />
 
 <!-- At the end of the body: -->
-<script src="halfmoon.min.js"></script>
+<script src="https://design.codeberg.org/design-kit/halfmoon.min.js"></script>
 
 <!-- To use the design for the whole page: -->
 <html class="codeberg-design">

@@ -1,4 +1,4 @@
-@import url("./halfmoon.css");
+@import url("./halfmoon.min.css");
 
 /* Fix box-sizing & positioning (which Halfmoon only sets for html/body) */
 .codeberg-design:not(html) {
