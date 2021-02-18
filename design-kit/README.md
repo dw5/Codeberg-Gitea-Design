@@ -11,8 +11,6 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
 <link rel="stylesheet" href="https://design.codeberg.org/design-kit/codeberg-design.css" />
 <link href="https://fonts.codeberg.org/dist/inter/Inter%20Web/inter.css" rel="stylesheet" />
 <link href="https://fonts.codeberg.org/dist/fontawesome5/css/all.min.css" rel="stylesheet" />
-
-<!-- At the end of the body: -->
 <script src="https://design.codeberg.org/design-kit/halfmoon.min.js"></script>
 
 <!-- To use the design for the whole page: -->
@@ -41,7 +39,7 @@ It's based on [Halfmoon](https://www.gethalfmoon.com/) and [Vue 3](https://v3.vu
       	"singleQuote": false
       }
       ```
-3. Add the stylesheet (as seen above) to your `index.html`
+3. Add the stylesheet with fonts (as seen above) to your `index.html`
 4. Remove the `public` folder and the favicon line in the `<head>` section in your `index.html`
 5. Swap out the HelloWorld component with your own one
 6. Start the development server using `npm run dev`
